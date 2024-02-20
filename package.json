@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "preline": "^2.0.3",
+    "swiper": "^11.0.6",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },

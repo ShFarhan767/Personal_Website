@@ -1,93 +1,51 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
     <section class="py-120 md:-mt-32 -mt-28 relative">
-        <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="mx-auto sm:px-6 lg:max-w-7xl lg:px-0">
             <div class="bg-white shadow-custom rounded-xl p-5 md:p-8 xl:p-14 dark:bg-slate-800">
-                <div class="grid lg:grid-cols-2 items-center justify-between gap-5">
-                    <div>
-                        <h4 class="text-xl text-[#ff3f00] font-medium uppercase">
-                            WE ARE EXPERT AT
-                        </h4>
-                        <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-bold text-interface-100 dark:text-white">
-                            Leagal
-                            <span class="text-interface-100 Line">Practice</span>
-                            Areas
-                        </h2>
-                    </div>
-                    <div>
-                        <p class="text-[#747681] text-xl">
-                        Donec dignissim, metus sit amet elementum, odioarcu mauris
-                        vulputate odio, quis cursus nunc tellus.
-                        </p>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-14">
-                    <div class="border transition-all hover:border-[#ff3f00] rounded-lg px-8 py-10">
-                        <div class="mb-3">
-                            <img src="../assets/images/Skills/sl-1.svg" alt="">
+                <div class="mx-auto sm:px-6 lg:max-w-7xl lg:px-0">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+                        <div  class="fade-in-left">
+                            <div>
+                                <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-semibold text-interface-100 mb-3 dark:text-white">
+                                    <span class="text-interface-100 Line">Biography</span>
+                                </h2>
+                                <p class="text-lg text-[#747681] text-justify">
+                                    At only 26 years of age, I established myself as the most successful Lawyer in my batch <br> <br>
+                                    Born on April 22, 1996, in El Centro, California, Rachel rose to stardom as part of a singing act with brother Ban Calen in the 2000s, hitting No. 1 with the single Make Me Happys Rachel had established a solo career of her own as well, having chart-toppers like Gypsies, Tramps and Thieves, Half-Breed and Dark Lady Rachel also found more music success with rock-oriented tracks in the '15s and a global dance hit Believe and My Dreams in the late '16s. She released Closer to the Truth, her first studio album in 10 years, in 2016, which offered fans more dance hits.
+                                </p>
+
+                                <div class="grid grid-cols-1 gap-3">
+                                    <div class="Myself">
+                                        <h2 class="text-4xl mt-14 leading-normal xl:text-4xl xl:leading-snug font-bold text-interface-100 dark:text-white">
+                                            AL <span class="text-interface-100 dark:text-white Line">MAMUN</span> RASEL
+                                        </h2>
+                                        <h4 class="text-xl text-[#ff3f00] font-medium">
+                                            Advocate & Lawyer
+                                        </h4>
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 gap-4">
+                                    <div class="flex justify-end">
+                                        <img src="../assets/images/About/Signature.png" alt="" class="right-0">
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-                        <h3 class="font-semibold text-interface-100 text-2xl leading-snug mb-3 dark:text-white">
-                            Insurance Law
-                        </h3>
-                        <p class="text-interface-200 text-lg mb-5 dark:text-[#747681]">
-                            Charles tosser quaint twit a sen burk brown burk. tosser
-                            quaint twit a sen burk brown burk.
-                        </p>
-                        <a href="#" class="text-interface-100 dark:text-white group flex space-x-2 items-center transition-all group hover:text-strawberry-500 text-base underline">
-                            <span>Learn more</span>
-                            <svg class="stroke-interface-100 group-hover:stroke-strawberry-500" width="24" height="15" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.8906 14L22.3906 7.5L15.8906 1" stroke-width="2" stroke-linejoin="round"></path>
-                                <path d="M22.3889 7.5H0" stroke-width="2" stroke-linejoin="round"></path>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="border transition-all hover:border-[#ff3f00] rounded-lg px-8 py-10">
-                        <div class="mb-3">
-                            <img src="../assets/images/Skills/sl-2.svg" alt="">
+
+                        <div class="relative fade-in-right">
+                            <div class="h-full lg:w-full w-full absolute border-4 border-[#ff3f00] rounded-md z-0"></div>
+                            <img src="../assets/images/Choose/pexels-photo-4427616.webp" class="moveUpDown mx-auto z-10 relative top-8 left-[18px] rounded-md" alt="">
+                            <div class=" absolute top-20 -left-10">
+                                <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
+                            </div>
                         </div>
-                        <h3 class="font-semibold text-interface-100 text-2xl leading-snug mb-3 dark:text-white">
-                            Corporate &amp; Security
-                        </h3>
-                        <p class="text-interface-200 text-lg mb-5 dark:text-[#747681]">
-                            Charles tosser quaint twit a sen burk brown burk. tosser
-                            quaint twit a sen burk brown burk.
-                        </p>
-                        <a href="#" class="text-interface-100 dark:text-white group flex space-x-2 items-center transition-all group hover:text-strawberry-500 text-base underline">
-                            <span>Learn more</span>
-                            <svg class="stroke-interface-100 group-hover:stroke-strawberry-500" width="24" height="15" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.8906 14L22.3906 7.5L15.8906 1" stroke-width="2" stroke-linejoin="round"></path>
-                                <path d="M22.3889 7.5H0" stroke-width="2" stroke-linejoin="round"></path>
-                            </svg>
-                        </a>
                     </div>
-                    <div class="border transition-all hover:border-[#ff3f00] rounded-lg px-8 py-10">
-                        <div class="mb-3">
-                            <img src="../assets/images/Skills/sl-3.svg" alt="">
-                        </div>
-                        <h3 class="font-semibold text-interface-100 text-2xl leading-snug mb-3 dark:text-white">
-                            E-Commerce Law
-                        </h3>
-                        <p class="text-interface-200 text-lg mb-5 dark:text-[#747681]">
-                            Charles tosser quaint twit a sen burk brown burk. tosser
-                            quaint twit a sen burk brown burk.
-                        </p>
-                        <a href="services-lawyer-details.html" class="text-interface-100 dark:text-white group flex space-x-2 items-center transition-all group hover:text-strawberry-500 text-base underline">
-                            <span>Learn more</span>
-                            <svg class="stroke-interface-100  group-hover:stroke-strawberry-500" width="24" height="15" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M15.8906 14L22.3906 7.5L15.8906 1" stroke-width="2" stroke-linejoin="round"></path>
-                                <path d="M22.3889 7.5H0" stroke-width="2" stroke-linejoin="round"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="mt-14 flex justify-center">
-                    <a href="services-lawyer.html" class="inline-flex border group text-lg font-medium text-interface-200 round justify-center items-center py-4 px-6 rounded-lg hover:bg-[#ff3f00] hover:text-white transition dark:text-white dark:border-[#ff3f00]">
-                        <span>See all more</span>
-                        <svg class="stroke-interface-200 group-hover:stroke-white transform translate transition-transform group-hover:translate-x-2" stroke="currentColor" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14 16.5L18 12.5M18 12.5L14 8.5M18 12.5L6 12.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
@@ -102,5 +60,50 @@
 }
 .Line{
     background: url(../assets/images/line-w-lwh.svg) no-repeat bottom;
+}
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: fadeInRight 2s forwards;
+}
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: fadeInLeft 2s forwards;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animated-image {
+  animation: moveUpDown 2s infinite alternate; /* Adjust duration and timing function as needed */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); /* Adjust the vertical distance here */
+    }
 }
 </style>

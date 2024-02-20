@@ -1,26 +1,57 @@
-<script setup></script>
+<script>
+export default {
+    mounted() {
+        window.addEventListener('scroll', this.checkVisibility);
+        this.checkVisibility(); // Check visibility on component mount
+    },
+    beforeDestroy() {
+        window.removeEventListener('scroll', this.checkVisibility);
+    },
+    methods: {
+        checkVisibility() {
+            const rect = this.$refs.section.getBoundingClientRect();
+            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+            // Check if section is in viewport
+            if (rect.top >= 0 && rect.bottom <= windowHeight) {
+                const upElements = this.$refs.section.querySelectorAll('.fade-in-up');
+                upElements.forEach(element => {
+                    element.classList.add('fade-in-up-active');
+                });
+
+                const downElements = this.$refs.section.querySelectorAll('.fade-in-down');
+                downElements.forEach(element => {
+                    element.classList.add('fade-in-down-active');
+                });
+            }
+        }
+    }
+}
+</script>
 
 <template>
-    <section class="py-20 dark:bg-slate-900">
+    <section ref="section" class="py-20 dark:bg-slate-900 fade-in-section">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-                <div class="relative">
+                <div class="relative fade-in-down">
                     <img src="../assets/images/About/lawyer.jpg" class="relative z-30 w-full" alt="">
                     <div class="hidden xl:block">
-                        <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
-                        <img src="../assets/images/About/ls-2.png" class="absolute top-8 -right-20 bottom-20 z-40" alt="">
-                        <img src="../assets/images/About/ls-3.png" class="absolute -right-20 bottom-0 z-40" alt="">
+                        <img src="../assets/images/About/law30.png" class="absolute -left-14 z-40 bottom-24 animated-image" alt="">
+                        <img src="../assets/images/About/law31.png" class="absolute top-8 -right-14 bottom-20 z-40 animated-image" alt="">
+                        <img src="../assets/images/About/law32.png" class="absolute right-5 bottom-10 z-40 animated-image" alt="">
                         <img src="../assets/images/About/ls-4.png" class="absolute -right-16 bottom-24 z-0" alt="">
                     </div>
                 </div>
-                <div>
+                <div class="fade-in-up">
                     <h4 class="text-xl text-[#ff3f00] font-medium uppercase">
                         ABOUT ME
                     </h4>
                     <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-bold text-interface-100 dark:text-white">
-                        Best
-                        <mark class="text-interface-100 dark:text-white Line">Solutions</mark> for <br> Legal Problems
+                        AL <span class="text-interface-100 dark:text-white Line">MAMUN</span> RASEL
                     </h2>
+                    <h4 class="text-xl text-[#ff3f00] font-medium">
+                        Advocate & Lawyer
+                    </h4>
                     <p class="py-6 text-lg text-[#747681]">
                         Donec dignissim, metus sit amet susc elementum, arcu mauris
                         vulputate odio, quis cursus nunc urna id tellus. Quis que hendre
@@ -117,5 +148,48 @@
 <style scoped>
 .Line{
     background: url(../assets/images/line-w-lwh.svg) no-repeat bottom;
+}
+.fade-in-up, .fade-in-down {
+  opacity: 0;
+  transform: translateY(50px); /* Start 50px below/above */
+  transition: opacity 0.5s, transform 2s;
+}
+
+.fade-in-up-active, .fade-in-down-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animated-image {
+  animation: moveUpDown 1.5s infinite alternate; /* Adjust duration and timing function as needed */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); /* Adjust the vertical distance here */
+    }
 }
 </style>
