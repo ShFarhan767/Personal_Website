@@ -1,32 +1,32 @@
 <script>
-export default {
-    mounted() {
-        window.addEventListener('scroll', this.checkVisibility);
-        this.checkVisibility(); // Check visibility on component mount
-    },
-    beforeDestroy() {
-        window.removeEventListener('scroll', this.checkVisibility);
-    },
-    methods: {
-        checkVisibility() {
-            const rect = this.$refs.section.getBoundingClientRect();
-            const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+// export default {
+//     mounted() {
+//         window.addEventListener('scroll', this.checkVisibility);
+//         this.checkVisibility(); // Check visibility on component mount
+//     },
+//     beforeDestroy() {
+//         window.removeEventListener('scroll', this.checkVisibility);
+//     },
+//     methods: {
+//         checkVisibility() {
+//             const rect = this.$refs.section.getBoundingClientRect();
+//             const windowHeight = window.innerHeight || document.documentElement.clientHeight;
 
-            // Check if section is in viewport
-            if (rect.top >= 0 && rect.bottom <= windowHeight) {
-                const upElements = this.$refs.section.querySelectorAll('.fade-in-up');
-                upElements.forEach(element => {
-                    element.classList.add('fade-in-up-active');
-                });
+//             // Check if section is in viewport
+//             if (rect.top >= 0 && rect.bottom <= windowHeight) {
+//                 const upElements = this.$refs.section.querySelectorAll('.fade-in-up');
+//                 upElements.forEach(element => {
+//                     element.classList.add('fade-in-up-active');
+//                 });
 
-                const downElements = this.$refs.section.querySelectorAll('.fade-in-down');
-                downElements.forEach(element => {
-                    element.classList.add('fade-in-down-active');
-                });
-            }
-        }
-    }
-}
+//                 const downElements = this.$refs.section.querySelectorAll('.fade-in-down');
+//                 downElements.forEach(element => {
+//                     element.classList.add('fade-in-down-active');
+//                 });
+//             }
+//         }
+//     }
+// }
 </script>
 
 <template>
@@ -163,16 +163,16 @@ export default {
     background: url(../assets/images/line-w-lwh.svg) no-repeat bottom;
 }
 /* scroll animation */
-.fade-in-up, .fade-in-down {
+/* .fade-in-up, .fade-in-down {
   opacity: 0;
-  transform: translateX(50px); /* Start 50px below/above */
+  transform: translateX(50px); 
   transition: opacity 0.7s, transform 2s;
 }
 
 .fade-in-up-active, .fade-in-down-active {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 /* @keyframes fadeInUp {
     from {
         opacity: 0;

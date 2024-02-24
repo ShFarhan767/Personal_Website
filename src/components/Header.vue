@@ -82,7 +82,7 @@ onMounted(() => {
 
                         <div class="space-x-2 hidden md:flex items-center">
                             <i class="fa-solid fa-phone text-[#ff3f00]"></i>
-                            <a href="tel:+0168833300" class="text-[#747681] text-base">+880 1688 33300</a>
+                            <a href="tel:+01600000" class="text-[#747681] text-base">+880 1600 11223</a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ onMounted(() => {
                                         <a href="#" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="#" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                                        <RouterLink to="/contact" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</RouterLink>
                                     </li>
                                     <li>
                                         <div class="hs-dropdown md:py-0 md:px-3 py-2 px-3 border-none relative inline-flex [--trigger:hover]">

@@ -10,7 +10,7 @@
 
                 <div>
                     <div class="absolute top-[50%] -left-24 z-0 hidden lg:block">
-                        <img src="../assets/images/About/ac-circle.png" alt="">
+                        <!-- <img src="../assets/images/About/ac-circle.png" alt=""> -->
                     </div>
                     <div class="relative z-10">
                         <h2 class="text-5xl font-bold text-interface-700 mb-4 leading-tight">
