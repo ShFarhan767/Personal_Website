@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@preline/tabs": "^2.0.2",
+    "aos": "^2.3.4",
     "preline": "^2.0.3",
     "swiper": "^9.2.0",
     "vue": "^3.4.15",

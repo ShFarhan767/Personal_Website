@@ -114,33 +114,33 @@
 
                     <div class="px-8 py-10 bg-[#F0F4FC] rounded-lg Form">
                         <form>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-5">
-                        <div>
-                        <label for="fname" class="block mb-2 text-base font-medium text-[#747681]">First Name</label>
-                        <input type="text" placeholder="Max" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
-                        </div>
-                        <div>
-                        <label for="lname" class="block mb-2 text-base font-medium text-[#747681]">Last Name</label>
-                        <input type="text" placeholder="Mustermann" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
-                        </div>
-                        <div>
-                        <label for="email" class="block mb-2 text-base font-medium text-[#747681]">Email</label>
-                        <input type="text" placeholder="max.mustermann@mail.de" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
-                        </div>
-                        <div>
-                        <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Telephone</label>
-                        <input type="text" placeholder="+49 123456789" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
-                        </div>
-                        <div class="md:col-span-2">
-                        <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Description</label>
-                        <textarea type="text" placeholder="Hier text ainfugen" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm resize-none h-40">                      </textarea>
-                        </div>
-                        </div>
-                        <div class="mt-8 flex justify-end">
-                        <button class="py-4 px-6 rounded-lg bg-pblue-500 text-white font-medium text-lg transition-all hover:bg-p[#ff3f00]">
-                        Send Now
-                        </button>
-                        </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-5">
+                                <div>
+                                    <label for="fname" class="block mb-2 text-base font-medium text-[#747681]">First Name</label>
+                                    <input type="text" placeholder="Abrar" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
+                                </div>
+                                <div>
+                                    <label for="lname" class="block mb-2 text-base font-medium text-[#747681]">Last Name</label>
+                                    <input type="text" placeholder="John" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
+                                </div>
+                                <div>
+                                    <label for="email" class="block mb-2 text-base font-medium text-[#747681]">Email</label>
+                                    <input type="text" placeholder="infoyourmail@gmail.com" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
+                                </div>
+                                <div>
+                                    <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Telephone</label>
+                                    <input type="text" placeholder="+49 123456789" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm">
+                                </div>
+                                <div class="md:col-span-2">
+                                    <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Description</label>
+                                    <textarea type="text" placeholder="Discribe Here" class="px-4 py-2.5 bg-white rounded-lg border-0 w-full placeholder:text-[#747681] placeholder:text-sm resize-none h-40"></textarea>
+                                </div>
+                            </div>
+                            <div class="mt-8 flex justify-end">
+                                <button class="py-4 px-6 rounded-lg bg-[#ff3f00] text-white font-medium text-lg transition-all hover:bg-[#ff3c00]">
+                                    Send Now
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

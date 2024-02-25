@@ -17,7 +17,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. tellus,
                     luctus neculla corper mattis, pulvinar dapibus.
                 </p>
-                <a href="contact.html" class="bg-[#ff3f00] group inline-flex transition py-4 px-6 rounded-lg text-white hover:bg-transparent border border-transparent hover:border hover:border-white">
+                <a href="#!" class="bg-[#ff3f00] group inline-flex transition py-4 px-6 rounded-lg text-white hover:bg-transparent border border-transparent hover:border hover:border-white">
                     <span> Contact us today</span>
                         <svg class="stroke-white transform translate transition-transform group-hover:translate-x-2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14 16.5L18 12.5M18 12.5L14 8.5M18 12.5L6 12.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>

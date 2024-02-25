@@ -1,39 +1,12 @@
-<script>
-// export default {
-//     mounted() {
-//         window.addEventListener('scroll', this.checkVisibility);
-//         this.checkVisibility(); // Check visibility on component mount
-//     },
-//     beforeDestroy() {
-//         window.removeEventListener('scroll', this.checkVisibility);
-//     },
-//     methods: {
-//         checkVisibility() {
-//             const rect = this.$refs.section.getBoundingClientRect();
-//             const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+<script setup>
 
-//             // Check if section is in viewport
-//             if (rect.top >= 0 && rect.bottom <= windowHeight) {
-//                 const upElements = this.$refs.section.querySelectorAll('.fade-in-up');
-//                 upElements.forEach(element => {
-//                     element.classList.add('fade-in-up-active');
-//                 });
-
-//                 const downElements = this.$refs.section.querySelectorAll('.fade-in-down');
-//                 downElements.forEach(element => {
-//                     element.classList.add('fade-in-down-active');
-//                 });
-//             }
-//         }
-//     }
-// }
 </script>
 
 <template>
         <section ref="section" class="py-20 dark:bg-slate-900 fade-in-section">
             <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-                    <div class="fade-in-down">
+                    <div class="" data-aos="fade-down" data-aos-duration="2000">
                         <h4 class="text-xl text-[#ff3f00] font-medium uppercase">
                             ABOUT ME
                         </h4>
@@ -132,7 +105,7 @@
                         </div>
                     </div>
 
-                    <div class="relative fade-in-up">
+                    <div class="relative" data-aos="fade-up" data-aos-duration="2000">
                         <img src="../assets/images/Writer/image-1.jpg" class="relative z-30 w-full" alt="">
                         <div class="hidden xl:block">
                             <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
@@ -162,38 +135,6 @@
 .Line {
     background: url(../assets/images/line-w-lwh.svg) no-repeat bottom;
 }
-/* scroll animation */
-/* .fade-in-up, .fade-in-down {
-  opacity: 0;
-  transform: translateX(50px); 
-  transition: opacity 0.7s, transform 2s;
-}
-
-.fade-in-up-active, .fade-in-down-active {
-  opacity: 1;
-  transform: translateY(0);
-} */
-/* @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
 .animated-image {
   animation: moveUpDown 2s infinite alternate; /* Adjust duration and timing function as needed */
 }
@@ -202,8 +143,8 @@
     0% {
         transform: translateY(0);
     }
-    100% {
-        transform: translateY(-20px); /* Adjust the vertical distance here */
+    50% {
+        transform: translateY(-25px);
     }
 }
 </style>

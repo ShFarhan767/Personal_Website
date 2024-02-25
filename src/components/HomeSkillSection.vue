@@ -8,7 +8,7 @@
             <div class="bg-white shadow-custom rounded-xl p-5 md:p-8 xl:p-14 dark:bg-slate-900">
                 <div class="mx-auto sm:px-6 lg:max-w-7xl lg:px-0">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-                        <div  class="fade-in-left">
+                        <div  class="" data-aos="fade-right" data-aos-duration="2000">
                             <div>
                                 <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-semibold text-interface-100 mb-3 dark:text-white">
                                     <span class="text-interface-100 Line">Biography</span>
@@ -38,7 +38,7 @@
 
                         </div>
 
-                        <div class="relative fade-in-right">
+                        <div class="relative" data-aos="fade-left" data-aos-duration="2000">
                             <div class="h-full lg:w-full w-full absolute border-4 border-[#ff3f00] rounded-md z-0"></div>
                             <img src="../assets/images/Choose/pexels-photo-4427616.webp" class="moveUpDown mx-auto z-10 relative top-8 left-[18px] rounded-md" alt="">
                             <div class=" absolute top-20 -left-10">
