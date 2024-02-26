@@ -8,11 +8,11 @@
                 <div class="mx-auto sm:px-6 lg:max-w-7xl lg:px-0">
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-24 xl:gap10 items-center">
                         <div  class="" data-aos="fade-right" data-aos-duration="2000">
-                            <div>
-                                <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-semibold text-interface-100 mb-2 dark:text-white">
+                            <div class="p-3 md:mt-5">
+                                <h2 class="md:text-4xl text-3xl leading-normal xl:text-5xl xl:leading-snug font-semibold text-interface-100 mb-2 dark:text-white">
                                     <span class="text-interface-100 Line">I'm Al Mamun Rasel</span>
                                 </h2>
-                                <h4 class="text-xl text-[#ff3f00] font-medium">
+                                <h4 class="md:text-xl text-[#ff3f00] text-base font-medium">
                                     Advocate At Supreme Court Of Bangladesh
                                 </h4>
                                 <p class="text-lg text-[#747681] md:pt-4 text-justify">
@@ -22,7 +22,7 @@
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-3">
-                                    <div class="Myself md:mt-8">
+                                    <div class="Myself md:mt-8 mt-4">
                                         <a href="#!" class="bg-[#ff3f00] group inline-flex transition py-4 px-6 rounded-lg text-white hover:bg-[#747681] border border-transparent hover:border hover:border-[#747681]">
                                             <span> Contact us today</span>
                                             <svg class="stroke-white transform translate transition-transform group-hover:translate-x-2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,9 +36,9 @@
 
                         </div>
 
-                        <div class="relative" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="relative">
                             <div class="h-72 bottom-0 w-full absolute bg-black z-0"></div>
-                            <img src="../assets/images/Lawyer/About.jpg" class="moveUpDown w-[480px] h-[500px] mx-auto z-10 relative lg:-top-6 md:top-10" alt="">
+                            <img src="../assets/images/Lawyer/About.jpg" class="moveUpDown md:w-[480px] md:h-[500px] md:p-0 p-5 mx-auto z-10 relative lg:-top-6 md:top-10" data-aos="fade-up" data-aos-duration="2000" alt="">
                             <div class=" absolute top-60 -left-10">
                                 <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                             </div>
@@ -62,7 +62,7 @@
     z-index: 0;
 }
 .animated-image {
-  animation: moveUpDown 2s infinite alternate; /* Adjust duration and timing function as needed */
+    animation: moveUpDown 2s infinite alternate; /* Adjust duration and timing function as needed */
 }
 
 @keyframes moveUpDown {

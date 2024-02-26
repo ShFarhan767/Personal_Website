@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="pb-20 md:-mt-32 -mt-28 relative">
+    <section class="pb-20 md:-mt-32 -mt-28 relative overflow-hidden">
         <div class="mx-auto sm:px-6 lg:max-w-7xl lg:px-0">
             <div class="bg-white shadow-custom rounded-xl p-5 md:p-8 xl:p-14 dark:bg-slate-900">
                 <div class="mx-auto sm:px-6 lg:max-w-7xl lg:px-0">

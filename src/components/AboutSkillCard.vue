@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section class="py-32 bg-[#f5f5f5] dark:bg-slate-800">
+    <section class="py-32 bg-[#f5f5f5] dark:bg-slate-800 overflow-hidden">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5 gap-5 xl:gap-10 lg:gap-16 place-items-center mb-14">
                 <div class="lg:col-span-2">
@@ -10,7 +10,7 @@
                         Expertise
                         <span class="relative">
                             <span class="relative z-20">Service!</span>
-                            <svg class="absolute -left-1 z-0 -top-2" width="206" height="75" viewBox="0 0 206 75" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+                            <svg class="absolute md:-left-1 -left-3 z-0 md:-top-2 -top-5" width="206" height="75" viewBox="0 0 206 75" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
                                 <path d="M27.1282 14.4113C66.5337 9.03391 151.827 4.45371 187.897 15.4254C226.745 27.2424 180.759 53.1141 129.951 64.6499C77.3856 76.585 18.356 73.496 6.50757 58.6571C-13.495 33.6061 61.3156 8.13765 120.395 3.11796" stroke="#ff3f00" stroke-width="6" stroke-linecap="round" style="color: red;"></path>
                             </svg>
                                 Let’s check it out.

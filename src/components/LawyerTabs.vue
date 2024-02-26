@@ -1,42 +1,71 @@
 <script setup>
-document.addEventListener("DOMContentLoaded", function () {
-    // Get all tab buttons
-    var tabButtons = document.querySelectorAll('.tab-button');
+import { ref, onMounted } from 'vue';
 
-    // Add click event listener to each tab button
-    tabButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-            // Remove 'active' class from all tab buttons
-            tabButtons.forEach(function (btn) {
-                btn.classList.remove('active');
+const tabBtns = ref([]);
+const tabContents = ref([]);
+
+onMounted(() => {
+    tabBtns.value = document.querySelectorAll("[data-tab]");
+    tabContents.value = document.querySelectorAll(".tab-content");
+
+    console.log("Number of tab buttons:", tabBtns.value.length);
+    console.log("Number of tab contents:", tabContents.value.length);
+
+    tabBtns.value.forEach((btn, index) => {
+        btn.addEventListener("click", () => {
+            console.log("Tab button clicked:", btn.getAttribute("data-tab"));
+
+            const tabId = btn.getAttribute("data-tab");
+
+            // Hide all tab contents
+            tabContents.value.forEach(content => {
+                content.classList.add("hidden");
             });
-            // Add 'active' class to the clicked tab button
-            button.classList.add('active');
+
+            // Show the selected tab content
+            const tabContent = document.getElementById(tabId);
+            if (tabContent) {
+                tabContent.classList.remove("hidden");
+                console.log("Tab content shown:", tabId);
+            }
+
+            // Remove active class from all buttons
+            tabBtns.value.forEach(button => {
+                button.classList.remove("active");
+            });
+
+            // Add active class to clicked button
+            btn.classList.add("active");
         });
+
+        // Activate the first tab by default
+        if (index === 0) {
+            btn.click();
+        }
     });
 });
 </script>
 
 <template>
-    <div class="container mx-auto">
+    <div class="container mx-auto pb-12">
 
         <div class="md:p-8 xl:p-10 relative z-10">
-            <nav class="relative z-0 flex border-b rounded-xl overflow-hidden dark:border-gray-700" aria-label="Tabs" role="tablist">
-                <button type="button" class="tab-button hs-tab-active:border-b-[#ff3f00] hs-tab-active:text-gray-900 dark:hs-tab-active:text-white dark:hs-tab-active:border-b-blue-600 relative min-w-0 flex-1 bg-white first:border-s-0 border-b-2 py-4 px-4 text-gray-500 hover:text-gray-700 text-xl font-medium text-center overflow-hidden hover:bg-gray-50 focus:z-10 focus:outline-none focus:text-[#ff3f00] disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400 active" id="bar-with-underline-item-1" data-hs-tab="#bar-with-underline-1" aria-controls="bar-with-underline-1" role="tab">
+            <nav class="relative z-0 flex border-b rounded-xl overflow-hidden dark:border-gray-700">
+                <button data-tab="tab1" class="tab-btn active:border-b-[#ff3f00] focus:border-b-[#ff3f00] hover:bg-gray-300relative min-w-0 flex-1 bg-white first:border-s-0 border-b-2 py-4 px-4 text-gray-500 hover:text-gray-700 md:text-xl text-sm font-medium text-center overflow-hidden focus:z-10 focus:outline-none focus:text-[#ff3f00] disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400 active">
                     Investigative Services
                 </button>
-                <button type="button" class="tab-button hs-tab-active:border-b-[#ff3f00] hs-tab-active:text-gray-900 dark:hs-tab-active:text-white dark:hs-tab-active:border-b-blue-600 relative min-w-0 flex-1 bg-white first:border-s-0 border-b-2 py-4 px-4 text-gray-500 hover:text-gray-700 text-xl font-medium text-center overflow-hidden hover:bg-gray-50 focus:z-10 focus:outline-none focus:text-[#ff3f00] disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400" id="bar-with-underline-item-2" data-hs-tab="#bar-with-underline-2" aria-controls="bar-with-underline-2" role="tab">
+                <button data-tab="tab2" class="tab-btn active:border-b-[#ff3f00] focus:border-b-[#ff3f00] hover:bg-gray-300relative min-w-0 flex-1 bg-white first:border-s-0 border-b-2 py-4 px-4 text-gray-500 hover:text-gray-700 md:text-xl text-sm font-medium text-center overflow-hidden focus:z-10 focus:outline-none focus:text-[#ff3f00] disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400">
                     Security Consultations
                 </button>
-                <button type="button" class="tab-button hs-tab-active:border-b-[#ff3f00] hs-tab-active:text-gray-900 dark:hs-tab-active:text-white dark:hs-tab-active:border-b-blue-600 relative min-w-0 flex-1 bg-white first:border-s-0 border-b-2 py-4 px-4 text-gray-500 hover:text-gray-700 text-xl font-medium text-center overflow-hidden hover:bg-gray-50 focus:z-10 focus:outline-none focus:text-[#ff3f00] disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400" id="bar-with-underline-item-3" data-hs-tab="#bar-with-underline-3" aria-controls="bar-with-underline-3" role="tab">
+                <button data-tab="tab3" class="tab-btn active:border-b-[#ff3f00] focus:border-b-[#ff3f00] hover:bg-gray-300relative min-w-0 flex-1 bg-white first:border-s-0 border-b-2 py-4 px-4 text-gray-500 hover:text-gray-700 md:text-xl text-sm font-medium text-center overflow-hidden focus:z-10 focus:outline-none focus:text-[#ff3f00] disabled:opacity-50 disabled:pointer-events-none dark:bg-gray-800 dark:border-l-gray-700 dark:border-b-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-400">
                     Criminal Defense Investigations
                 </button>
             </nav>
-        </div>
 
-        <div class="md:p-8 xl:p-10">
-            <div class="mt-3">
-                <div id="bar-with-underline-1" role="tabpanel" aria-labelledby="bar-with-underline-item-1">
+            <!-- Tab 1 Start -->
+
+            <div id="tab1" class="tab-content hidden overflow-hidden">
+                <div class="mt-3 p-3">
                     <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-24 xl:gap10 items-center" data-aos="fade-in">
                         <div  class="" data-aos="fade-right" data-aos-duration="2000">
                             <div class="About_BG"></div>
@@ -45,11 +74,11 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <span class="text-interface-100 Line">Investigative Services</span>
                                 </h2>
                                 <p class="text-lg text-[#747681] md:pt-4 text-justify">
-                                   A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-3">
-                                    <div class="Myself md:mt-8">
+                                    <div class="Myself md:mt-8 mt-4">
                                         <a href="#!" class="bg-[#ff3f00] group inline-flex transition py-4 px-6 rounded-lg text-white hover:bg-[#747681] border border-transparent hover:border hover:border-[#747681]">
                                             <span>Read More</span>
                                             <svg class="stroke-white transform translate transition-transform group-hover:translate-x-2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,17 +93,19 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
 
                         <div class="relative col-span-2" data-aos="fade-left" data-aos-duration="2000">
-                            <img src="../assets/images/Lawyer/about_1.jpg.webp" class="moveUpDown w-full h-full mx-auto z-10 relative lg:-top-6 top-8 md:top-10" alt="">
+                            <img src="../assets/images/Lawyer/about_1.jpg.webp" class="moveUpDown w-full h-full mx-auto z-10 relative lg:top-6 top-8 md:top-10" alt="">
                             <div class=" absolute top-44 -left-10 md:block hidden">
                                 <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- 2nd Tab Details -->
+            <!-- Tab 2 Start -->
 
-                <div id="bar-with-underline-2" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-2">
+            <div id="tab2" class="tab-content hidden overflow-hidden">
+                <div class="p-3">
                     <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-24 xl:gap10 items-center">
                         <div  class="" data-aos="fade-right" data-aos-duration="2000">
                             <div class="About_BG"></div>
@@ -87,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-3">
-                                    <div class="Myself md:mt-8">
+                                    <div class="Myself md:mt-8 mt-4">
                                         <a href="#!" class="bg-[#ff3f00] group inline-flex transition py-4 px-6 rounded-lg text-white hover:bg-[#747681] border border-transparent hover:border hover:border-[#747681]">
                                             <span>Read More</span>
                                             <svg class="stroke-white transform translate transition-transform group-hover:translate-x-2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,19 +133,24 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
 
                         <div class="relative col-span-2" data-aos="fade-left" data-aos-duration="2000">
-                            <img src="../assets/images/Lawyer/hero_2.jpg.webp" class="moveUpDown w-full h-full mx-auto z-10 relative lg:-top-6 top-8 md:top-10" alt="">
+                            <img src="../assets/images/Lawyer/hero_2.jpg.webp" class="moveUpDown w-full h-full mx-auto z-10 relative lg:top-6 top-8 md:top-10" alt="">
                             <div class=" absolute top-44 -left-10 md:block hidden">
                                 <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="bar-with-underline-3" class="hidden" role="tabpanel" aria-labelledby="bar-with-underline-item-3">
-                    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-24 xl:gap10 items-center">
+            </div>
+
+            <!-- Tab 3 Start -->
+
+            <div id="tab3" class="tab-content hidden overflow-hidden">
+                <div class="p-3">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-24 xl:gap10 items-center mt-3">
                         <div  class="" data-aos="fade-right" data-aos-duration="2000">
                             <div class="About_BG"></div>
                             <div class="relative z-10">
-                                <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-semibold text-interface-100 mb-2 dark:text-white">
+                                <h2 class="text-4xl xl:text-5xl leading-[1.1] xl:leading-snug font-semibold text-interface-100 mb-2 dark:text-white">
                                     <span class="text-interface-100 Line">Criminal Defense Investigations</span>
                                 </h2>
                                 <p class="text-lg text-[#747681] md:pt-4 text-justify">
@@ -122,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-3">
-                                    <div class="Myself md:mt-8">
+                                    <div class="Myself md:mt-8 mt-4">
                                         <a href="#!" class="bg-[#ff3f00] group inline-flex transition py-4 px-6 rounded-lg text-white hover:bg-[#747681] border border-transparent hover:border hover:border-[#747681]">
                                             <span>Read More</span>
                                             <svg class="stroke-white transform translate transition-transform group-hover:translate-x-2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
 
                         <div class="relative col-span-2" data-aos="fade-left" data-aos-duration="2000">
-                            <img src="../assets/images/Lawyer/about_3.jpg.webp" class="moveUpDown w-full h-full mx-auto z-10 relative lg:-top-6 top-8 md:top-10" alt="">
+                            <img src="../assets/images/Lawyer/about_3.jpg.webp" class="moveUpDown w-full h-full mx-auto z-10 relative lg:top-6 top-8 md:top-10" alt="">
                             <div class=" absolute top-44 -left-10 md:block hidden">
                                 <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                             </div>
@@ -160,8 +196,12 @@ document.addEventListener("DOMContentLoaded", function () {
     z-index: 0;
     left: 160px;
 }
+.tab-btn.active {
+    color: #ff3f00;
+    border-bottom-color: #ff3f00;
+}
 .animated-image {
-  animation: moveUpDown 2s infinite alternate; /* Adjust duration and timing function as needed */
+    animation: moveUpDown 2s infinite alternate; /* Adjust duration and timing function as needed */
 }
 
 @keyframes moveUpDown {
