@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section ref="section" class="py-20 dark:bg-slate-900 fade-in-section">
+    <section ref="section" class="py-20 dark:bg-slate-900 overflow-hidden">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                 <div class="relative" data-aos="fade-down" data-aos-duration="2000">
@@ -122,37 +122,6 @@
 .Line{
     background: url(../assets/images/line-w-lwh.svg) no-repeat bottom;
 }
-/* .fade-in-up, .fade-in-down {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.5s, transform 2s;
-}
-
-.fade-in-up-active, .fade-in-down-active {
-  opacity: 1;
-  transform: translateY(0);
-}
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInDown {
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
 .animated-image {
   animation: moveUpDown 1.5s infinite alternate; /* Adjust duration and timing function as needed */
 }

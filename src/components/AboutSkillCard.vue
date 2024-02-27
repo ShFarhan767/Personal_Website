@@ -1,4 +1,29 @@
-<script setup>
+<script>
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
+
+export default {
+    mounted() {
+        this.swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            centeredSlides: false, // Changed to false
+            autoplay: {
+                delay: 5000, // milliseconds
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    },
+    beforeDestroy() {
+        if (this.swiper) {
+            this.swiper.destroy();
+        }
+    }
+};
 </script>
 
 <template>
@@ -23,7 +48,7 @@
                     </p>
                 </div>
             </div>
-            <div class="swiper servicesSlider swiper-initialized swiper-horizontal swiper-backface-hidden">
+            <div class="swiper-container overflow-hidden swiper-initialized swiper-horizontal swiper-backface-hidden">
                 <div class="swiper-wrapper pb-14 lg:pb-16" id="swiper-wrapper-d82e7410882e52269" aria-live="off" style="transform: translate3d(-415.333px, 0px, 0px); transition-duration: 0ms;">
                     <article class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 4" style="width: 385.333px; margin-right: 30px;" data-swiper-slide-index="2">
                         <div class="relative transition duration-200 cursor-pointer px-7 py-8 bg-white group hover:bg-[#ff3f00] shadow-customThree rounded-custom overflow-hidden dark:bg-slate-900">

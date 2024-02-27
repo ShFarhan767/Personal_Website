@@ -3,7 +3,7 @@
 </script>
 
 <template>
-        <section ref="section" class="py-20 dark:bg-slate-900 fade-in-section">
+        <section ref="section" class="py-20 dark:bg-slate-900 fade-in-section overflow-hidden">
             <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                     <div class="" data-aos="fade-down" data-aos-duration="2000">
@@ -107,7 +107,7 @@
 
                     <div class="relative" data-aos="fade-up" data-aos-duration="2000">
                         <img src="../assets/images/Writer/image-1.jpg" class="relative z-30 w-full" alt="">
-                        <div class="hidden xl:block">
+                        <div class="hidden 2xl:block">
                             <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
                             <img src="../assets/images/About/ls-2.png" class="absolute top-8 -right-20 bottom-20 z-40" alt="">
                             <img src="../assets/images/About/ls-3.png" class="absolute -right-20 bottom-0 z-40" alt="">

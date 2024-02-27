@@ -4,13 +4,13 @@
     <section class="Bottom_Bg py-20">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="flex flex-col gap-5 xl:gap-10 lg:flex-row justify-between">
-                <div class="xl:w-5/12">
+                <div class="xl:w-5/12" data-aos="fade-right" data-aos-duration="2000">
                     <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-tight font-bold text-white">
                         Hire me <br>
                         as a Lawyer great skills elite.
                     </h2>
                 </div>
-                <div class="xl:w-5/12">
+                <div class="xl:w-5/12" data-aos="fade-left" data-aos-duration="2000">
                     <div class="max-w-lg">
                         <p class="text-xl xl:text-2xl text-white mb-8">
                             I am Lawyer, I love this profession – not for the money, but for the thrill of solving problems.

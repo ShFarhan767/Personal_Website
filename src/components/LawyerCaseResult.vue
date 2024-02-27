@@ -26,7 +26,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#050f25] pb-8 border-l-[#ff3f00] border-2" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="bg-[#050f25] pb-8 border-l-[#ff3f00] border-l-2" data-aos="fade-right" data-aos-duration="2000">
                         <div class="About_BG"></div>
                         <div class="relative z-10">
                             <h4 class=" text-xl px-5 pt-4 mt-8 text-[#ff3f00]">Capital Market</h4>
@@ -39,19 +39,21 @@
                             </h4>
 
                             <div class="description w-[72%] float-left mt-4 pl-5 ">
-                                <p class="text-white text-lg">
+                                <p class="w-full text-white text-lg">
                                     Numerous definitions of law have been put forward over the centuries. The Third New International Dictionary from Merriam.definitions of law have been put forward definitions of law.
                                 </p>
                             </div>
+                
+                            <div class="w-full h-40">
+                                <h4 class="Title text-white text-xl font-normal px-4 mt-8 float-left">
+                                    Awarded :
+                                </h4>
 
-                            <h4 class="Title text-white text-xl font-normal px-4 mt-8 float-left">
-                                Awarded :
-                            </h4>
-
-                            <div class="description w-[490px] float-left mt-8 pl-14">
-                                <p class="text-white text-lg">
-                                    $800 fine 5 months License suspension 12 Oct 2018
-                                </p>
+                                <div class="description w-[490px] float-left mt-8 pl-14">
+                                    <p class="text-white text-lg">
+                                        $800 fine 5 months License suspension 12 Oct 2018
+                                    </p>
+                                </div>
                             </div>
 
                         </div>
@@ -118,7 +120,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#050f25] pb-8 border-l-[#ff3f00] border-2" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="bg-[#050f25] pb-8 border-l-[#ff3f00] border-l-2" data-aos="fade-right" data-aos-duration="2000">
                         <div class="About_BG"></div>
                         <div class="relative z-10">
                             <h4 class=" text-xl px-5 pt-4 mt-8 text-[#ff3f00]">International Law</h4>

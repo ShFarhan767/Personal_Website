@@ -1,36 +1,36 @@
 <script setup></script>
 
 <template>
-    <section class="bg-[#F7F7FD] pb-20">
+    <section class="bg-[#F7F7FD] pb-20 dark:bg-slate-800">
         <div>
             <img src="../assets/images/About/ach-bg.jpg" class="w-full" alt="">
         </div>
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-            <div class="bg-white place-items-center rounded shadow-customFour -mt-64 overflow-hidden relative z-10 py-20 px-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="bg-white place-items-center rounded shadow-customFour -mt-64 overflow-hidden relative z-10 py-20 px-16 grid grid-cols-1 lg:grid-cols-2 gap-12 dark:bg-slate-900">
 
-                <div>
+                <div data-aos="fade-down" data-aos-duration="2000">
                     <div class="absolute top-[50%] -left-24 z-0 hidden lg:block">
                         <!-- <img src="../assets/images/About/ac-circle.png" alt=""> -->
                     </div>
                     <div class="relative z-10">
-                        <h2 class="text-5xl font-bold text-interface-700 mb-4 leading-tight">
+                        <h2 class="text-5xl font-bold text-interface-700 mb-4 leading-tight dark:text-white">
                             The Achievement my <br>
                             Project.
                         </h2>
-                        <p class="text-interface-200 text-lg mb-4">
+                        <p class="text-interface-200 text-lg mb-4 dark:text-white">
                             There are many variations of passages of Ipsum available,
                             majority have suffered.
                         </p>
                         <ul class="space-y-2.5 mb-10">
-                            <li class="flex items-center gap-3 text-lg text-interface-100">
+                            <li class="flex items-center gap-3 text-lg text-interface-100 dark:text-white">
                                 <i class="fa-solid fa-check text-[#ff3f00]"></i>
                                 <span>Suspe ndisse suscipit sagittis leo.</span>
                             </li>
-                            <li class="flex items-center gap-3 text-lg text-interface-100">
+                            <li class="flex items-center gap-3 text-lg text-interface-100 dark:text-white">
                                 <i class="fa-solid fa-check text-[#ff3f00]"></i>
                                 <span>Entum estibulum dignissim as posuere.</span>
                             </li>
-                            <li class="flex items-center gap-3 text-lg text-interface-100">
+                            <li class="flex items-center gap-3 text-lg text-interface-100 dark:text-white">
                                 <i class="fa-solid fa-check text-[#ff3f00]"></i>
                                 <span>Suspe ndisse suscipit sagittis leo.</span>
                             </li>
@@ -44,8 +44,8 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 pt-5">
-                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded">
+                <div class="grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 pt-5" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded dark:bg-slate-800">
                         <div class="-mt-16">
                             <span class="w-20 h-20 rounded-full transition border border-[#ff3f00] group-hover:border group-hover:border-white bg-[#ff3f00] grid place-items-center">
                                 <svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,15 +57,15 @@
                                 </svg>
                             </span>
                         </div>
-                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6">
+                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6 dark:text-white">
                             <span class="counter">1.2</span>
                             <span class="pl-3">k</span>
                         </h3>
-                        <h4 class="text-pcolor-500 text-lg group-hover:text-white">
+                        <h4 class="text-pcolor-500 text-lg group-hover:text-white dark:text-white">
                             Happy Customers
                         </h4>
                     </div>
-                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded">
+                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded dark:bg-slate-800">
                         <div class="-mt-16">
                             <span class="w-20 h-20 rounded-full transition border border-[#ff3f00] group-hover:border group-hover:border-white bg-[#ff3f00] grid place-items-center">
                                 <svg width="44" height="35" viewBox="0 0 44 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,15 +76,15 @@
                                 </svg>
                             </span>
                         </div>
-                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6">
+                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6 dark:text-white">
                             <span class="counter">123</span>
                             <span class="pl-3">+</span>
                         </h3>
-                        <h4 class="text-pcolor-500 text-lg group-hover:text-white">
+                        <h4 class="text-pcolor-500 text-lg group-hover:text-white dark:text-white">
                             Co-Agent
                         </h4>
                     </div>
-                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded">
+                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded dark:bg-slate-800">
                         <div class="-mt-16">
                             <span class="w-20 h-20 rounded-full transition border border-[#ff3f00] group-hover:border group-hover:border-white bg-[#ff3f00] grid place-items-center">
                                 <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,14 +102,14 @@
                                 </svg>
                             </span>
                         </div>
-                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6">
+                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6 dark:text-white">
                             <span class="counter">17</span>
                         </h3>
-                        <h4 class="text-pcolor-500 text-lg group-hover:text-white">
+                        <h4 class="text-pcolor-500 text-lg group-hover:text-white dark:text-white">
                             Branches around
                         </h4>
                     </div>
-                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded">
+                    <div class="bg-[#F2F6FE] group hover:bg-[#ff3f00] transition-all flex flex-col items-center px-8 py-6 rounded dark:bg-slate-800">
                         <div class="-mt-16">
                             <span class="w-20 h-20 rounded-full transition border border-[#ff3f00] group-hover:border group-hover:border-white bg-[#ff3f00] grid place-items-center">
                                 <svg width="31" height="37" viewBox="0 0 31 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -119,11 +119,11 @@
                                 </svg>
                             </span>
                         </div>
-                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6">
+                        <h3 class="text-4xl -space-x-3 text-interface-700 group-hover:text-white font-semibold mb-2 mt-6 dark:text-white">
                             <span class="counter">2.3</span>
                             <span class="pl-3">k</span>
                         </h3>
-                        <h4 class="text-pcolor-500 text-lg group-hover:text-white">
+                        <h4 class="text-pcolor-500 text-lg group-hover:text-white dark:text-white">
                             Solved Case
                         </h4>
                     </div>

@@ -1,21 +1,47 @@
-<script setup></script>
+<script>
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
+
+export default {
+    mounted() {
+        this.swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            centeredSlides: false,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    },
+    beforeDestroy() {
+        if (this.swiper) {
+            this.swiper.destroy();
+        }
+    }
+};
+</script>
 
 <template>
-    <section class="py-32">
-        <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 relative">
+    <section class="py-32 bg-[#f6f9ff]">
+        <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 relative" data-aos="fade-right" data-aos-duration="2000">
             <div>
                 <div class="mx-auto text-center mb-10">
                     <span class="text-[#ff3f00] text-xl font-medium uppercase">Testmonials</span>
-                    <h2 class="text-interface-100 font-bold lg:text-5xl lg:leading-snug text-4xl leading-normal">
-                        What’s Our Customer Say
+                    <h2 class="font-bold lg:text-5xl lg:leading-snug text-4xl leading-normal dark:text-white">
+                        What’s My Customer Say
                     </h2>
                 </div>
 
                 <div class="max-w-[940px] mx-auto">
-                    <div class="swiper singleTestimonial swiper-initialized swiper-horizontal swiper-backface-hidden">
+                    <div class="swiper-container overflow-hidden swiper-initialized swiper-horizontal swiper-backface-hidden">
                         <div class="swiper-wrapper" id="swiper-wrapper-10e6aaec4a1b8ca57" aria-live="off" style="transform: translate3d(-1880px, 0px, 0px); transition-duration: 0ms;">
 
-                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 940px;">
+                            <div class="swiper-slide" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 940px;">
                                 <div class="grid grid-cols-1 md:grid-cols-4 place-items-center border border-[#ECEAFF] shadow-customFour gap-4 rounded-lg p-8">
                                     <div class="col-span-3">
                                         <ul class="flex space-x-2 mb-2">
@@ -165,7 +191,7 @@
                     Trusted by big brands
                 </p>
             </div>
-            <div class="swiper brandlogo swiper-initialized swiper-horizontal">
+            <div class="swiper-container overflow-hidden swiper-initialized swiper-horizontal">
                 <div class="swiper-wrapper" id="swiper-wrapper-d510fc2b149369e88" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1046.67px, 0px, 0px);">
                     <div class="swiper-slide" role="group" aria-label="1 / 11" data-swiper-slide-index="0" style="width: 169.333px; margin-right: 40px;">
                         <div class="logo-single">
@@ -228,3 +254,9 @@
         </div>
     </section>
 </template>
+
+<style scoped>
+nav a.router-link-exact-active {
+    color: #ff3f00;
+}
+</style>

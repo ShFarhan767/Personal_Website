@@ -5,7 +5,7 @@
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
 
-                <div class="relative">
+                <div class="relative" data-aos="fade-up" data-aos-duration="2000">
                     <img src="../assets/images/About/About.jpg" class="w-full h-auto pb-5 z-10 relative" alt="">
                     <div class="hidden md:block">
                         <img src="../assets/images/About/ls-4.png" class="absolute z-0 left-0 xl:-left-20 bottom-20" alt="">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-down" data-aos-duration="2000">
                     <h2 class="text-interface-500 font-bold text-4xl leading-normal xl:text-5xl capitalize xl:leading-snug mb-4 dark:text-white">
                         World leading
                         <span class="relative">
