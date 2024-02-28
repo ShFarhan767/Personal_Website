@@ -33,38 +33,26 @@ window.addEventListener('DOMContentLoaded', () => {
     // Get a reference to the mobile menu
     const mobileMenu = document.getElementById('navbar-sticky');
 
+    // Get all menu items
+    const menuItems = document.querySelectorAll('.navbar-item');
+
     // Function to toggle the visibility of the mobile menu
     function toggleMobileMenu() {
         mobileMenu.classList.toggle('hidden'); // Toggle the 'hidden' class
     }
 
+    // Function to close mobile menu
+    function closeMobileMenu() {
+        mobileMenu.classList.add('hidden');
+    }
+
     // Event listener for click event on the mobile menu toggle button
     menuToggle.addEventListener('click', toggleMobileMenu);
-});
 
-import { ref , onMounted } from 'vue';
-
-const darkMode = ref(false);
-
-// Function to toggle dark mode
-const toggleMode = () => {
-    darkMode.value = !darkMode.value;
-    if (darkMode.value) {
-        document.documentElement.classList.add('dark');
-    } else {
-        document.documentElement.classList.remove('dark');
-    }
-    // Update local storage with current theme preference
-    localStorage.setItem('darkMode', darkMode.value ? 'dark' : 'light');
-};
-
-// Check if dark mode preference is stored in local storage on component mount
-onMounted(() => {
-    const storedDarkMode = localStorage.getItem('darkMode');
-    if (storedDarkMode === 'dark') {
-        darkMode.value = true;
-        document.documentElement.classList.add('dark');
-    }
+    // Event listener for click event on menu items to close the mobile menu
+    menuItems.forEach(item => {
+        item.addEventListener('click', closeMobileMenu);
+    });
 });
 </script>
 
@@ -77,37 +65,29 @@ onMounted(() => {
 
                         <div class="flex items-center space-x-2">
                             <i class="fa-solid fa-envelope text-[#ff3f00]"></i>
-                            <a href="mailto:info@example.com" class="text-[#747681] text-base">info@example.com</a>
+                            <a href="mailto:info@example.com" class="text-[#e9e9ec] text-base">info@example.com</a>
                         </div>
 
                         <div class="space-x-2 hidden md:flex items-center">
                             <i class="fa-solid fa-phone text-[#ff3f00]"></i>
-                            <a href="tel:+0168833300" class="text-[#747681] text-base">+880 1688 33300</a>
+                            <a href="tel:+01600000" class="text-[#e9e9ec] text-base">+880 1600 11223</a>
                         </div>
                     </div>
                 </div>
                 <div class="flex items-center space-x-6">
-                    <a href="#" class="group transition-all text-[#747681] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="group transition-all text-[#747681] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="#" class="group transition-all text-[#747681] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-youtube"></i>
                     </a>
-                    <a href="#" class="group transition-all text-[#747681] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
-                    <a class="group transition-all text-[#747681] hover:text-[#ff3f00]">
-                        
-                        <a @click="toggleMode"  id="theme-toggle" type="button" class="text-[#747681] font-semibold hover:text-[#747681] transition-all dark:text-white">
-                            <div class="Dark_Mode md:w-10 h-10 flex items-center justify-center">
-                                <i v-if="!darkMode" id="theme-toggle-dark-icon" class="fa-solid fa-moon"></i>
-                                <i v-else id="theme-toggle-light-icon" class="fa-solid fa-sun"></i>
-                            </div>
-                        </a>
-                    </a>
+
                 </div>
             </div>
         </div>
@@ -124,7 +104,7 @@ onMounted(() => {
                             </a>
                             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                                 <button type="button" class="lg:block hidden md:mr-3 text-white bg-[#ff3f00] font-normal rounded-lg text-base px-5 py-3 text-center group button-group">
-                                    Consultation
+                                    Meet With Me
                                     <i class="fa-solid fa-arrow-right-long text-xs transition-transform duration-300"></i>
                                 </button>
 
@@ -136,44 +116,24 @@ onMounted(() => {
                                 </button>
                             </div>
                             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                                <ul class="maffix bg-white fixed lg:relative w-full left-0 md:left-0 top-16 md:top-0 flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700">
+                                <ul class="maffix bg-white lg:relative w-full left-0 md:left-0 top-16 md:top-0 flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700">
                                     <li>
-                                        <RouterLink to="/" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</RouterLink>
+                                        <RouterLink to="/" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</RouterLink>
                                     </li>
                                     <li>
-                                        <RouterLink to="/about" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</RouterLink>
+                                        <RouterLink to="/about" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</RouterLink>
                                     </li>
                                     <li>
-                                        <a href="#" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                                        <RouterLink to="/lawyer" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Lawyer</RouterLink>
                                     </li>
                                     <li>
-                                        <a href="#" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Portfolio</a>
+                                        <RouterLink to="/writer" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Wrtiter</RouterLink>
                                     </li>
                                     <li>
-                                        <a href="#" class="block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                                        <RouterLink to="/speaker" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Speaker</RouterLink>
                                     </li>
                                     <li>
-                                        <div class="hs-dropdown md:py-0 md:px-3 py-2 px-3 border-none relative inline-flex [--trigger:hover]">
-                                            <a id="hs-dropdown-hover-event" type="button" class="hs-dropdown-toggle border-none inline-flex items-center gap-x-2 text-base text-[#000] md:hover:text-[#ff3f00] transition-all duration-700 font-medium rounded-lg disabled:opacity-50 cursor-pointer dark:bg-slate-800 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                                                Pages
-                                                <svg class="hs-dropdown-open:rotate-180 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                                            </a>
-
-                                            <div class="hs-dropdown-menu transition-[opacity,margin] duration-500 hs-dropdown-open:opacity-100 opacity-0 hidden min-w-44 min-h-52 bg-white shadow-md rounded-lg p-2 mt-2 dark:bg-gray-800 dark:border dark:border-gray-700 dark:divide-gray-700 after:h-4 after:absolute after:-bottom-4 after:start-0 after:w-full before:h-4 before:absolute before:-top-4 before:start-0 before:w-full" aria-labelledby="hs-dropdown-hover-event">
-                                                <a class="flex items-center gap-x-3.5 py-3 px-3 rounded-lg text-base text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:bg-gray-700" href="#">
-                                                    Team Details
-                                                </a>
-                                                <a class="flex items-center gap-x-3.5 py-3 px-3 rounded-lg text-base text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:bg-gray-700" href="#">
-                                                    Achivement
-                                                </a>
-                                                <a class="flex items-center gap-x-3.5 py-3 px-3 rounded-lg text-base text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:bg-gray-700" href="#">
-                                                    Gallery
-                                                </a>
-                                                <a class="flex items-center gap-x-3.5 py-3 px-3 rounded-lg text-base text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:bg-gray-700" href="#">
-                                                    Contact
-                                                </a>
-                                            </div>
-                                        </div>
+                                        <RouterLink to="/contact" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</RouterLink>
                                     </li>
                                 </ul>
                             </div>
@@ -188,6 +148,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
+nav a.router-link-exact-active {
+    color: #ff3f00;
+}
 @media screen and (min-width: 1118px){
     .nav {
         display: flex;

@@ -1,30 +1,20 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
-    <section class="py-20 dark:bg-slate-900">
+    <section ref="section" class="pb-20 pt-5 dark:bg-slate-900 overflow-hidden">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-                <div class="relative">
-                    <img src="../assets/images/About/lawyer.jpg" class="relative z-30 w-full" alt="">
-                    <div class="hidden xl:block">
-                        <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
-                        <img src="../assets/images/About/ls-2.png" class="absolute top-8 -right-20 bottom-20 z-40" alt="">
-                        <img src="../assets/images/About/ls-3.png" class="absolute -right-20 bottom-0 z-40" alt="">
-                        <img src="../assets/images/About/ls-4.png" class="absolute -right-16 bottom-24 z-0" alt="">
-                    </div>
-                </div>
-                <div>
-                    <h4 class="text-xl text-[#ff3f00] font-medium uppercase">
-                        ABOUT ME
+                <div class="" data-aos="fade-up" data-aos-duration="2000">
+                    <h4 class="text-xl text-[#ff3f00] font-medium">
+                        Advocate & Lawyer
                     </h4>
                     <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-bold text-interface-100 dark:text-white">
-                        Best
-                        <mark class="text-interface-100 dark:text-white Line">Solutions</mark> for <br> Legal Problems
+                        AL MAMUN <span class="text-interface-100 dark:text-white Line">RASEL</span> 
                     </h2>
                     <p class="py-6 text-lg text-[#747681]">
-                        Donec dignissim, metus sit amet susc elementum, arcu mauris
-                        vulputate odio, quis cursus nunc urna id tellus. Quis que hendre
-                        rit commodo dignissim.
+                        The end of law is not to abolish or restrain, but to preserve and enlarge freedom. For in all the states of created beings capable of law, where there is no law, there is no freedom.
                     </p>
                     <ul class="grid md:grid-cols-2 gap-7">
                         <li class="flex space-x-3 dark:text-[#f5f5f5]">
@@ -44,7 +34,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span>(B2B) buying .</span>
+                            <span>Criminal Law</span>
                         </li>
                         <li class="flex space-x-3 dark:text-[#f5f5f5]">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +53,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span>Demographic data.</span>
+                            <span>Civil Law</span>
                         </li>
                         <li class="flex space-x-3 dark:text-[#f5f5f5]">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +72,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span>Demographic data..</span>
+                            <span>Corporate Law</span>
                         </li>
                         <li class="flex space-x-3 dark:text-[#f5f5f5]">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -101,12 +91,21 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span>Marketing established.</span>
+                            <span>Tax Law</span>
                         </li>
                     </ul>
                     <div class="mt-10">
                         <img src="../assets/images/About/Signature.png" alt="">
-                        <span class="text-2xl  text-interface-100 dark:text-[#f5f5f5]">CEO &amp; Founder of Difolio</span>
+                        <span class="text-2xl  text-interface-100 dark:text-[#f5f5f5]">Founder of Legal Solution Chamber</span>
+                    </div>
+                </div>
+                <div class="relative" data-aos="fade-down" data-aos-duration="2000">
+                    <img src="../assets/images/Lawyer/Lawyer-home.jpg" class="relative z-30 w-full" alt="">
+                    <div class="hidden xl:block">
+                        <img src="../assets/images/About/law30.png" class="absolute -left-14 z-40 bottom-24 animated-image" alt="">
+                        <img src="../assets/images/About/law31.png" class="absolute top-8 -right-14 bottom-20 z-40 animated-image" alt="">
+                        <img src="../assets/images/About/law32.png" class="absolute right-5 bottom-10 z-40 animated-image" alt="">
+                        <img src="../assets/images/About/ls-4.png" class="absolute -right-16 bottom-24 z-0" alt="">
                     </div>
                 </div>
             </div>
@@ -117,5 +116,17 @@
 <style scoped>
 .Line{
     background: url(../assets/images/line-w-lwh.svg) no-repeat bottom;
+}
+.animated-image {
+  animation: moveUpDown 1.5s infinite alternate; /* Adjust duration and timing function as needed */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); /* Adjust the vertical distance here */
+    }
 }
 </style>

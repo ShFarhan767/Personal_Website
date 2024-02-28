@@ -13,6 +13,26 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutView.vue')
     },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/ContactView.vue')
+    },
+    {
+      path: '/lawyer',
+      name: 'lawyer',
+      component: () => import('../views/LawyerView.vue')
+    },
+    {
+      path: '/writer',
+      name: 'writer',
+      component: () => import('../views/WriterView.vue')
+    },
+    {
+      path: '/speaker',
+      name: 'speaker',
+      component: () => import('../views/SpeakerView.vue')
+    },
   ]
 })
 
