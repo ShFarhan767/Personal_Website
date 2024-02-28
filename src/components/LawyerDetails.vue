@@ -18,7 +18,7 @@
                                 <p class="text-lg text-[#747681] md:pt-4 text-justify">
                                     At only 26 years of age, I established myself as the most successful Lawyer in my batch <br> <br>
                                     Born on Jult 1, 1990, in Cumilla, I passed SSC and HSC from AJFKM and completed my bachelor's degree from University of Dhaka. Then I completed my post graduation from Bangabandhu Sheikh Mujibur Rahman Maritime University on Special LLM (Maritime Law). <br> <br>
-                                    Now I successfully serving as a lawyer of Supreme Court of Bangladesh & also owns a law firm named Legal Solution Chamber(LSC
+                                    Now I successfully serving as a lawyer of Supreme Court of Bangladesh & also owns a law firm named Legal Solution Chamber(LSC)
                                 </p>
 
                                 <div class="grid grid-cols-1 gap-3">

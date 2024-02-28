@@ -101,7 +101,7 @@ export default {
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="text-xl font-semibold group-hover:text-white">ANNOUNCEMENT</p>
+                                <p class="text-xl font-semibold group-hover:text-[#ff3f00]">ANNOUNCEMENT</p>
                                 <h3 class="mb-6 font-semibold text-2xl text-interface-100 group-hover:text-white dark:text-white">
                                     Criminal Lawyer/ Finance Lawyer &amp; Advisor
                                 </h3>
@@ -192,7 +192,7 @@ export default {
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="text-xl font-semibold group-hover:text-white">TRENDING</p>
+                                <p class="text-xl font-semibold group-hover:text-[#ff3f00]">TRENDING</p>
                                 <h3 class="mb-6 font-semibold text-2xl text-interface-100 group-hover:text-white dark:text-white">
                                     Law Book Writer &amp; <br> Advisor
                                 </h3>
@@ -283,7 +283,7 @@ export default {
                                     </defs>
                                 </svg>
                             </div>
-                            <p class="text-xl font-semibold group-hover:text-white">FEATURED</p>
+                            <p class="text-xl font-semibold group-hover:text-[#ff3f00]">FEATURED</p>
                             <h3 class="mb-6 font-semibold text-2xl text-interface-100 group-hover:text-white dark:text-white">
                                 Speaker / Motivational Speaker
                             </h3>
@@ -351,7 +351,7 @@ export default {
                                         stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                             </div>
-                            <p class="text-xl font-semibold group-hover:text-white">BOOKS</p>
+                            <p class="text-xl font-semibold group-hover:text-[#ff3f00]">BOOKS</p>
                             <h3 class="mb-6 font-semibold text-2xl text-interface-100 group-hover:text-white dark:text-white">
                                 Writer &amp; Puslishing Book / Law Books
                             </h3>

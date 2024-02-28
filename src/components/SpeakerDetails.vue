@@ -62,7 +62,7 @@
                                 <div class="float-left px-1 py-1 w-8 h-8 rounded-full flex items-center justify-center text-xl text-white bg-[#ff3f00]">
                                     <i class="fa-solid fa-crosshairs"></i>
                                 </div>
-                                <h2 class="text-2xl font-semibold pl-3 float-left text-[#141414]"> My Vision</h2> <br><br>
+                                <h2 class="text-2xl font-semibold pl-3 float-left text-[#141414] dark:text-white"> My Vision</h2> <br><br>
                                 <div class="float-none py-2">
                                     <h5 class="text-base text-[#747681] float-none">Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
                                 </div>
@@ -72,7 +72,7 @@
                                 <div class="float-left px-1 py-1 w-8 h-8 rounded-full flex items-center justify-center text-xl text-white bg-[#091d2d]">
                                     <i class="fa-solid fa-gear"></i>
                                 </div>
-                                <h2 class="text-2xl font-semibold pl-3 float-left text-[#141414]"> My Mission</h2> <br><br>
+                                <h2 class="text-2xl font-semibold pl-3 float-left text-[#141414] dark:text-[#ff3f00]"> My Mission</h2> <br><br>
                                 <div class="float-none py-2">
                                     <h5 class="text-base text-[#747681] float-none">Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
                                 </div>

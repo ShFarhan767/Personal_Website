@@ -3,23 +3,31 @@
 </script>
 
 <template>
-        <section ref="section" class="py-20 dark:bg-slate-900 fade-in-section overflow-hidden">
+        <section ref="section" class="pb-20 pt-5 dark:bg-slate-900 fade-in-section overflow-hidden">
             <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+                    <div class="relative" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="../assets/images/Writer/image-1.jpg" class="relative z-30 w-full" alt="">
+                        <div class="hidden 2xl:block">
+                            <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
+                            <img src="../assets/images/About/ls-2.png" class="absolute top-8 -right-20 bottom-20 z-40" alt="">
+                            <img src="../assets/images/About/ls-3.png" class="absolute -right-20 bottom-0 z-40" alt="">
+                            <img src="../assets/images/Writer/shape-1.png" class="absolute -right-20 top-32 -z-10 animated-image" alt="">
+                            <img src="../assets/images/About/ls-4.png" class="absolute -left-16 bottom-60 z-0" alt="">
+                        </div>
+                    </div>
                     <div class="" data-aos="fade-down" data-aos-duration="2000">
-                        <h4 class="text-xl text-[#ff3f00] font-medium uppercase">
-                            ABOUT ME
+                        <h4 class="text-xl text-[#ff3f00] font-medium">
+                            Speaker
                         </h4>
                         <h2 class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-bold text-interface-100 dark:text-white">
-                            AL <span class="text-interface-100 dark:text-white Line">MAMUN</span> RASEL
+                            AL MAMUN <span class="text-interface-100 dark:text-white Line">RASEL</span>
                         </h2>
-                        <h4 class="text-xl text-[#ff3f00] font-medium">
-                            Advocate & Lawyer
-                        </h4>
+
                         <p class="py-6 text-lg text-[#747681]">
-                            Donec dignissim, metus sit amet susc elementum, arcu mauris
-                            vulputate odio, quis cursus nunc urna id tellus. Quis que hendre
-                            rit commodo dignissim.
+                            “ Remember not only to say the right thing in the right place, 
+                            but far more difficult still, to leave unsaid the wrong thing at the tempting 
+                            moment ”
                         </p>
                         <ul class="grid md:grid-cols-2 gap-7">
                             <li class="flex space-x-3 dark:text-[#f5f5f5]">
@@ -39,7 +47,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <span>(B2B) buying .</span>
+                                <span>Public Speaker</span>
                             </li>
                             <li class="flex space-x-3 dark:text-[#f5f5f5]">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +66,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <span>Demographic data.</span>
+                                <span>Motivational Speaker</span>
                             </li>
                             <li class="flex space-x-3 dark:text-[#f5f5f5]">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,7 +85,7 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <span>Demographic data..</span>
+                                <span>Law Speaker</span>
                             </li>
                             <li class="flex space-x-3 dark:text-[#f5f5f5]">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,24 +104,9 @@
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <span>Marketing established.</span>
+                                <span>Religious Speaker</span>
                             </li>
                         </ul>
-                        <div class="mt-10">
-                            <img src="../assets/images/About/Signature.png" alt="">
-                            <span class="text-2xl  text-interface-100 dark:text-[#f5f5f5]">CEO &amp; Founder of Difolio</span>
-                        </div>
-                    </div>
-
-                    <div class="relative" data-aos="fade-up" data-aos-duration="2000">
-                        <img src="../assets/images/Writer/image-1.jpg" class="relative z-30 w-full" alt="">
-                        <div class="hidden 2xl:block">
-                            <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
-                            <img src="../assets/images/About/ls-2.png" class="absolute top-8 -right-20 bottom-20 z-40" alt="">
-                            <img src="../assets/images/About/ls-3.png" class="absolute -right-20 bottom-0 z-40" alt="">
-                            <img src="../assets/images/Writer/shape-1.png" class="absolute -right-20 top-32 -z-10 animated-image" alt="">
-                            <img src="../assets/images/About/ls-4.png" class="absolute -left-16 bottom-60 z-0" alt="">
-                        </div>
                     </div>
                 </div>
             </div>

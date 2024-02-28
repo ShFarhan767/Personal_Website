@@ -32,7 +32,7 @@ export default {
             <div>
                 <div class="mx-auto text-center mb-10">
                     <span class="text-[#ff3f00] text-xl font-medium uppercase">Testmonials</span>
-                    <h2 class="font-bold lg:text-5xl lg:leading-snug text-4xl leading-normal dark:text-white">
+                    <h2 class="font-bold lg:text-5xl lg:leading-snug text-4xl leading-normal dark:text-black">
                         What’s My Customer Say
                     </h2>
                 </div>
@@ -169,94 +169,24 @@ export default {
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                     </div>
                     <ul class="hidden xl:block">
+                        <li class="bg-[#58f394] w-[60px] h-[60px] rounded-full absolute left-0 top-0"></li>
                         <li class="bg-[#ff3f00] w-[60px] h-[60px] rounded-full absolute left-0 bottom-8"></li>
-                        <li class="bg-[#ff3f00] w-[65px] h-[65px] rounded-full absolute right-0 top-5"></li>
-                        <li class="absolute left-0 top-0">
+                        <li class="bg-[#ff0055] w-[65px] h-[65px] rounded-full absolute right-0 top-5"></li>
+                        <li class="bg-[#ff3f00] w-[65px] h-[65px] rounded-full absolute right-10 bottom-16"></li>
+                        <!-- <li class="absolute left-0 top-0">
                             <img src="../assets/images/Testimonial/av-lg-1.png" alt="">
                         </li>
                         <li class="absolute -right-10 bottom-16">
                             <img src="../assets/images/Testimonial/av-lg-2.png" alt="">
-                        </li>
+                        </li> -->
                         <li class="absolute right-10 bg-[#F2C94C] w-11 h-11 rounded-full -bottom-10"></li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <!-- Our Clients -->
-
-        <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 pt-16">
-            <div class="mx-auto text-center">
-                <p class="text-lg font-medium text-interface-100 mb-8">
-                    Trusted by big brands
-                </p>
-            </div>
-            <div class="swiper-container overflow-hidden swiper-initialized swiper-horizontal">
-                <div class="swiper-wrapper" id="swiper-wrapper-d510fc2b149369e88" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1046.67px, 0px, 0px);">
-                    <div class="swiper-slide" role="group" aria-label="1 / 11" data-swiper-slide-index="0" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-1.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="2 / 11" data-swiper-slide-index="1" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-2.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="3 / 11" data-swiper-slide-index="2" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-3.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="4 / 11" data-swiper-slide-index="3" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-4.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="5 / 11" data-swiper-slide-index="4" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-1.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="6 / 11" data-swiper-slide-index="5" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-2.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide swiper-slide-next" role="group" aria-label="7 / 11" data-swiper-slide-index="6" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-3.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="8 / 11" data-swiper-slide-index="7" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-4.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="9 / 11" data-swiper-slide-index="8" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-1.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="10 / 11" data-swiper-slide-index="9" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-2.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-slide" role="group" aria-label="11 / 11" data-swiper-slide-index="10" style="width: 169.333px; margin-right: 40px;">
-                        <div class="logo-single">
-                            <img src="../assets/images/Testimonial/brand-3.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-            </div>
-        </div>
     </section>
 </template>
 
 <style scoped>
-nav a.router-link-exact-active {
-    color: #ff3f00;
-}
 </style>

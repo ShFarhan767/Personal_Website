@@ -8,7 +8,7 @@
             </h1>
             <ul class="flex justify-center items-center space-x-2">
                 <RouterLink to="/"
-                    class="block py-2 px-3 text-xl font-medium text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                    class="block py-2 px-3 text-xl font-medium text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:hover:bg-gray-700 dark:hover:text-[#ff3f00] md:dark:hover:bg-transparent dark:border-gray-700">
                     Home</RouterLink>
                 <li>
                     <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">

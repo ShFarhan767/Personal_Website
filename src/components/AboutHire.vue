@@ -15,7 +15,7 @@
                         <p class="text-xl xl:text-2xl text-white mb-8">
                             I am Lawyer, I love this profession – not for the money, but for the thrill of solving problems.
                         </p>
-                        <a href="contact-us.html" class="bg-[#ff3f00] group inline-flex gap-1 items-center justify-center py-4 px-7 rounded-xl text-white text-lg transition-all hover:bg-[#ff4000b9]">
+                        <a href="#!" class="bg-[#ff3f00] group inline-flex gap-1 items-center justify-center py-4 px-7 rounded-xl text-white text-lg transition-all hover:bg-[#ff4000b9]">
                             <span>Download CV</span>
                             <svg class="transform transition  group-hover:translate-y-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12.0008 3.5625C11.7939 3.56255 11.5955 3.64474 11.4493 3.79101C11.303 3.93728 11.2208 4.13565 11.2208 4.3425V13.2409L8.23783 10.2579C8.16539 10.1855 8.07939 10.1281 7.98475 10.0889C7.89011 10.0497 7.78867 10.0295 7.68623 10.0295C7.47935 10.0295 7.28095 10.1117 7.13467 10.258C6.9884 10.4043 6.90623 10.6027 6.90625 10.8096C6.90627 11.0165 6.98847 11.2149 7.13477 11.3612L11.4491 15.675C11.5955 15.8212 11.7939 15.9034 12.0008 15.9034C12.2076 15.9034 12.4061 15.8212 12.5524 15.675L16.8668 11.3604C17.0131 11.2142 17.0953 11.0158 17.0953 10.8089C17.0953 10.602 17.0131 10.4036 16.8669 10.2573C16.7206 10.111 16.5222 10.0288 16.3153 10.0288C16.1084 10.0287 15.91 10.1109 15.7637 10.2572L12.7808 13.2409V4.3425C12.7807 4.13565 12.6985 3.93728 12.5523 3.79101C12.406 3.64474 12.2076 3.56255 12.0008 3.5625Z" fill="white"></path>

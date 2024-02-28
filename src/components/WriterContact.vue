@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <section class="Contact-Bg" data-aos="fade-right" data-aos-duration="2000">
+    <section class="Contact-Bg overflow-hidden" data-aos="fade-right" data-aos-duration="2000">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="flex flex-col lg:flex-row items-center justify-between lg:gap-16">
                 <div class="lg:w-2/3 py-16 lg:py-20">
