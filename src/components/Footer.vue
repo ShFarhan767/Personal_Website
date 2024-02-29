@@ -11,9 +11,9 @@
 
                 </div> -->
                 <div class="md:col-span-3 lg:col-span-4 pt-8 lg:pt-0">
-                    <ul class="flex justify-center items-center space-x-2">
+                    <ul class="flex md:justify-center md:items-center">
                         <li class="font-medium text-white hover:text-[#ff3f00] cursor-pointer ">Privacy & Policy </li>
-                        <li class="text-white">|</li>
+                        <li class="text-white pl-2"> | </li>
                         <li class="font-medium text-white hover:text-[#ff3f00] cursor-pointer ml-2">Terms & Condition</li>
                     </ul>
                 </div>

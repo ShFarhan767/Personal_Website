@@ -7,7 +7,7 @@
             <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                     <div class="relative" data-aos="fade-up" data-aos-duration="2000">
-                        <img src="../assets/images/Writer/image-1.jpg" class="relative z-30 w-full" alt="">
+                        <img src="../assets/images/Speaker/Speaker.jpg" class="relative z-30 w-full" alt="">
                         <div class="hidden 2xl:block">
                             <img src="../assets/images/About/ls-1.png" class="absolute -left-20 z-40 bottom-24" alt="">
                             <img src="../assets/images/About/ls-2.png" class="absolute top-8 -right-20 bottom-20 z-40" alt="">

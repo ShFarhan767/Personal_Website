@@ -14,9 +14,6 @@
                         class="text-4xl leading-normal xl:text-5xl xl:leading-snug font-bold text-interface-100 dark:text-white">
                         AL <span class="text-interface-100 dark:text-white Line">MAMUN</span> RASEL
                     </h2>
-                    <h4 class="text-xl text-[#ff3f00] font-medium">
-                        Law Book Writer
-                    </h4>
                     <p class="py-6 text-lg text-[#747681]">
                         Donec dignissim, metus sit amet susc elementum, arcu mauris
                         vulputate odio, quis cursus nunc urna id tellus. Quis que hendre
@@ -116,10 +113,6 @@
                             <span>Marketing established.</span>
                         </li>
                     </ul>
-                    <div class="mt-10">
-                        <img src="../assets/images/About/Signature.png" alt="">
-                        <span class="text-2xl  text-interface-100 dark:text-[#f5f5f5]">CEO &amp; Founder of Difolio</span>
-                    </div>
                 </div>
 
                 <div class="relative" data-aos="fade-up" data-aos-duration="2000">

@@ -24,7 +24,8 @@
 
 <style scoped>
 .Writer {
-    background: url(../assets/images/Speaker/public-speaker.png) no-repeat;
+    width: 100%;
+    background: url(../assets/images/Speaker/Top-BG.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }

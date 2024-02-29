@@ -62,17 +62,17 @@ export default {
                                             </li>
                                         </ul>
                                         <p class="text-2xl text-[#747681] italic block pb-10">
-                                            There are many variations of passages of Lorem Ipsum
-                                            into the available, majority have into the find end to
-                                            find to suffered passages of Lorem Ipsum available.
+                                            As a client I would like to say ,He is a very good as a person 
+                                            & also he is so much polite to his clients, majority have 
+                                            into the find end to find to suffered passages .
                                         </p>
                                         <h3 class="font-semibold text-2xl text-interface-100">
-                                            Wade De Warren
+                                            MD Saiful Islam
                                         </h3>
-                                        <span class="text-lg text-[#747681]">Real Estate Broker</span>
+                                        <span class="text-lg text-[#747681]">CEO at Doofaz IT</span>
                                     </div>
                                     <div class="relative">
-                                        <img src="../assets/images/Testimonial/author.jpg" class="w-full rounded-lg" alt="">
+                                        <img src="../assets/images/Testimonial/Test-1.jpg" class="md:w-full md:h-auto w-[200px] h-[280px] rounded-lg" alt="">
                                         <span class="w-16 absolute bottom-5 -left-8 h-16 rounded-full bg-[#ff3f00] grid place-items-center">
                                             <svg width="34" height="29" viewBox="0 0 34 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M11.8717 14.7261H6.78887V10.6598C6.78887 8.41701 8.61232 6.59356 10.8552 6.59356H11.3634C12.2084 6.59356 12.8883 5.91374 12.8883 5.06867V2.01903C12.8883 1.17402 12.2085 0.494141 11.3634 0.494141H10.8552C5.23861 0.494141 0.689453 5.0433 0.689453 10.6598V25.9084C0.689453 27.5921 2.05546 28.9581 3.73916 28.9581H11.8717C13.5554 28.9581 14.9214 27.5921 14.9214 25.9084V17.7758C14.9214 16.0921 13.5554 14.7261 11.8717 14.7261Z" fill="white"></path>

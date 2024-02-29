@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <section class="Bottom_Bg py-20">
+    <section class="Bottom_Bg py-20 overflow-hidden">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="flex flex-col gap-5 xl:gap-10 lg:flex-row justify-between">
                 <div class="xl:w-5/12" data-aos="fade-right" data-aos-duration="2000">

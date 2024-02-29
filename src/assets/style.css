@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.Header_Logo {
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
 @layer base {
     html {
         font-family: "Work Sans", sans-serif;

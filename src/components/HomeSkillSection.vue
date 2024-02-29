@@ -11,7 +11,7 @@
 
                         <div class="relative" data-aos="fade-right" data-aos-duration="2000">
                             <div class="h-full lg:w-full w-full absolute border-4 border-[#ff3f00] rounded-md z-0"></div>
-                            <img src="../assets/images/Speaker/First.jpg" class="moveUpDown mx-auto z-10 relative top-8 left-12 rounded-md" alt="">
+                            <img src="../assets/images/Speaker/First.jpg" class="moveUpDown mx-auto z-10 relative top-8 md:left-12 left-5 rounded-md" alt="">
                             <div class=" absolute top-20 -left-10">
                                 <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                             </div>
@@ -28,8 +28,8 @@
                                     Now I successfully serving as a lawyer of Supreme Court of Bangladesh & also owns a law firm named Legal Solution Chamber(LSC)
                                 </p>
 
-                                <div class="grid grid-cols-3">
-                                    <div class="Myself col-span-2">
+                                <div class="grid md:grid-cols-3">
+                                    <div class="Myself md:col-span-2">
                                         <h2 class="text-4xl mt-14 leading-normal xl:text-4xl xl:leading-snug font-bold text-interface-100 dark:text-white">
                                             AL MAMUN <span class="text-interface-100 dark:text-white Line"> RASEL</span> 
                                         </h2>
@@ -38,7 +38,7 @@
                                         </h4>
                                     </div>
                                      <div class="flex justify-center items-center w-40 h-20">
-                                        <img src="../assets/images/About/Signature.png" alt="" class="relative right-0 top-12">
+                                        <img src="../assets/images/About/Signature.png" alt="" class="relative right-0 md:top-12">
                                     </div>
                                 </div>
 
