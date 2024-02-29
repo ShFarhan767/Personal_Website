@@ -17,11 +17,11 @@ onMounted(animatePercentageBars);
 </script>
 
 <template>
-    <section class="pt-32 lg:pb-14 bg-[#F7F8FB] dark:bg-slate-800 overflow-hidden">
+    <section class="pt-12 lg:pb-14 bg-[#F7F8FB] dark:bg-slate-800 overflow-hidden">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
 
-                <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="mt-20" data-aos="fade-up" data-aos-duration="3000">
                     <p class="font-3xl font-semibold mb-2 dark:text-white">My Speaker Career</p>
                     <h2 class="text-[#141414] font-semibold text-5xl leading-normal xl:text-5xl capitalize xl:leading-snug mb-3 dark:text-white">
                         Help
@@ -40,43 +40,10 @@ onMounted(animatePercentageBars);
                         Unlock your life potential with me
                     </h4>
                     <p class="text-xl text-[#747681] mb-4">
-                        Hello there! My name is Robert Elisc. I am a Lawyer ,
+                        Hello there! My name is Al Mamun Rasel. I am a Lawyer ,
                         Writer &amp; Speaker and I'm very passionate and dedicated to my work.
-                        With 8 years experience as a professional a Lawyer
+                        With 6 years experience as a professional a Lawyer
                     </p>
-                    <div class="mt-10 mb-10 space-y-6" ref="skillsSection">
-                        <div class="relative">
-                            <div class="flex justify-between">
-                                <span class="text-lg text-[#747681] font-medium block mb-3 dark:text-white">Personal Growth</span>
-                                <span class="text-lg font-medium text-interface-100 block mb-3 dark:text-white">90%</span>
-                            </div>
-                            <div class="bg-[#D8D8DE] bg-opacity-20 w-full h-2 rounded">
-                                <div class="percentage-bar bg-[#ff3f00] h-2 rounded" style="width: 0;"></div>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <div class="flex justify-between">
-                                <span class="text-lg text-[#747681] font-medium block mb-3 dark:text-white">Self Awareness
-                                </span>
-                                <span class="text-lg font-medium text-interface-100 block mb-3 dark:text-white">96%
-                                </span>
-                            </div>
-                            <div class="bg-[#D8D8DE] bg-opacity-20 w-full h-2 rounded">
-                                <div class="bg-[#04091E] h-2 rounded" style="width: 96%"></div>
-                            </div>
-                        </div>
-                        <div class="relative">
-                            <div class="flex justify-between">
-                                <span class="text-lg text-[#747681] font-medium block mb-3 dark:text-white">Leadership Skills
-                                </span>
-                                <span class="text-lg font-medium text-interface-100 block mb-3 dark:text-white">92%
-                                </span>
-                            </div>
-                            <div class="bg-[#D8D8DE] bg-opacity-20 w-full h-2 rounded">
-                                <div class="bg-[#ff3f00] h-2 rounded" style="width: 92%"></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="relative">
@@ -101,8 +68,8 @@ onMounted(animatePercentageBars);
                                 </svg>
                             </div>
                             <div class="ml-5 mt-2">
-                                <h2 class="ml-14 text-2xl text-[#091D2D] font-semibold dark:text-[#ff3f00]">Commitment</h2>
-                                <p class="ml-14 text-base text-[#747681] dark:text-white">We are always committed to improving the quality that can bring success and satisfaction to your business.</p>
+                                <h2 class="ml-14 text-2xl text-[#091D2D] font-semibold dark:text-[#ff3f00]">Public Speaker</h2>
+                                <p class="ml-14 text-base text-[#747681] dark:text-white">If your actions inspire others to dream more, learn more, do more and become more, you are a leader.</p>
                             </div>
                         </div>
                     </div>
@@ -114,16 +81,12 @@ onMounted(animatePercentageBars);
                                 <svg class="ml-2 mt-1" id="SvgjsSvg1316" width="48" height="48" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
                                     <defs id="SvgjsDefs1317"></defs>
                                     <g id="SvgjsG1318">
-                                        <svg xmlns="http://www.w3.org/2000/svg" id="svg6485" version="1.1" viewBox="0 0 32 32" width="42" height="42">
-                                            <g id="layer1" transform="translate(0 -1020.362)" fill="#000000" class="color000 svgShape">
-                                                <path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;white-space:normal;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" id="path9546" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-opacity="1" stroke-width="1" d="m 7.9999869,1022.3622 c -1.61588,0 -2.92913,1.2889 -2.98828,2.8906 -0.0079,0.036 -0.01172,22.1094 -0.01172,22.1094 0,1.6534 1.34664,3 3,3 l 18.5000001,0 c 0.27613,0 0.49997,-0.2239 0.5,-0.5 l 0,-22 c 7.8e-4,-0.076 -0.0159,-0.1518 -0.0488,-0.2207 -0.58494,-1.5149 -0.63143,-3.007 0.0117,-4.5899 l -0.0117,0.01 c 0.14029,-0.3267 -0.0957,-0.6913 -0.45117,-0.6972 l -18.5000001,0 z m 0,1 17.9023401,0 c -0.19955,0.6717 -0.29447,1.3387 -0.29492,2 l -1.60742,0 c -0.67616,-0.01 -0.67616,1.0096 0,1 l 1.67773,0 c 0.0491,0.3353 0.12337,0.6694 0.22071,1 l -17.8984401,0 c -1.11666,0 -2,-0.8833 -2,-2 l 10.7890601,0 c 0.67616,0.01 0.67616,-1.0096 0,-1 l -10.5175801,0 c 0.34284,-0.5989 0.97934,-1 1.72852,-1 z m 11.4335901,1 c -0.66667,0.034 -0.61588,1.0339 0.0508,1 l 1.51561,0 c 0.67616,0.01 0.67616,-1.0096 0,-1 l -1.51562,0 c -0.0169,-9e-4 -0.0339,-9e-4 -0.0508,0 z m -13.4335901,3.2188 c 0.28889,0.2606 0.62653,0.4623 1,0.5957 l 0,20.9121 c -0.59793,-0.3431 -1,-0.9781 -1,-1.7266 z m 2,0.7812 18.0000001,0 0,21 -18.0000001,0 z m 2.4648401,2 c -0.26231,0.018 -0.4654701,0.237 -0.4648401,0.5 l 0,5 c 3.01e-5,0.2761 0.2238701,0.5 0.5000001,0.5 l 13,0 c 0.27613,0 0.49997,-0.2239 0.5,-0.5 l 0,-5 c -3e-5,-0.2761 -0.22387,-0.5 -0.5,-0.5 l -13,0 c -0.0117,-4e-4 -0.0234,-4e-4 -0.0352,0 z m 0.53516,1 12,0 0,4 -12,0 z m 7.44141,14 c -0.66667,0.034 -0.61589,1.0339 0.0508,1 l 6,0 c 0.67616,0.01 0.67616,-1.0096 0,-1 l -6,0 c -0.0169,-9e-4 -0.0339,-9e-4 -0.0508,0 z m 0,2 c -0.66667,0.034 -0.61589,1.0339 0.0508,1 l 2.50779,0 c 0.67616,0.01 0.67616,-1.0096 0,-1 l -2.50781,0 c -0.0169,-9e-4 -0.0339,-9e-4 -0.0508,0 z m 4.73242,0 c -0.66667,0.034 -0.61589,1.0339 0.0508,1 l 1.26758,0 c 0.67616,0.01 0.67616,-1.0096 0,-1 l -1.26758,0 c -0.0169,-9e-4 -0.0339,-9e-4 -0.0508,0 z" baseline-shift="baseline" clip-rule="nonzero" color="#000" color-interpolation="sRGB" color-interpolation-filters="linearRGB" color-rendering="auto" direction="ltr" display="inline" enable-background="accumulate" font-family="sans-serif" font-size="medium" font-stretch="normal" font-style="normal" font-variant="normal" font-weight="400" image-rendering="auto" letter-spacing="normal" opacity="1" overflow="visible" paint-order="fill markers stroke" shape-rendering="auto" text-anchor="start" text-decoration="none" text-rendering="auto" visibility="visible" word-spacing="normal" writing-mode="lr-tb" class="color000 svgShape"></path>
-                                            </g>    
-                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="38" viewBox="0 0 24 24"><path d="M20 12.875v5.068c0 2.754-5.789 4.057-9 4.057-3.052 0-9-1.392-9-4.057v-6.294l9 4.863 9-3.637zm-8.083-10.875l-12.917 5.75 12 6.5 11-4.417v7.167h2v-8.25l-12.083-6.75zm13.083 20h-4c.578-1 1-2.5 1-4h2c0 1.516.391 2.859 1 4z"/></svg>
                                     </g>
                                 </svg>
                             </div>
                             <div class="ml-5 mt-2">
-                                <h2 class="ml-14 text-2xl text-[#091D2D] font-semibold dark:text-[#ff3f00]">Transparency</h2>
+                                <h2 class="ml-14 text-2xl text-[#091D2D] font-semibold dark:text-[#ff3f00]">Law Speaker</h2>
                                 <p class="ml-14 text-base text-[#747681] dark:text-white">Always provide business-specific accessibility that can be used by people with various abilities and disabilities.</p>
                             </div>
                         </div>
@@ -136,24 +99,15 @@ onMounted(animatePercentageBars);
                                 <svg class="mt-1 ml-1" id="SvgjsSvg1322" width="50" height="50" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
                                     <defs id="SvgjsDefs1323"></defs>
                                     <g id="SvgjsG1324">
-                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 52 52" viewBox="0 0 52 52" width="42" height="42">
-                                            <switch>
-                                                <g fill="#000000" class="color000 svgShape">
-                                                    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M33,13V7c0-2.2-1.8-4-4-4H7C4.8,3,3,4.8,3,7v22c0,2.2,1.8,4,4,4h1.6L7,41l8-8h3" class="colorStroke454545 svgStroke"></path>
-                                                    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M46.7,41.5c1.4-2.3,2.3-5.1,2.3-8C49,24.9,42.1,18,33.5,18C24.9,18,18,24.9,18,33.5S24.9,49,33.5,49 c3.1,0,6-0.9,8.4-2.5l6.8,2.5L46.7,41.5z" class="colorStroke454545 svgStroke"></path>
-                                                    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M31.2,36.5c0.1-1.2,0.2-2.1,0.6-2.8c0.4-0.8,1.1-1.6,2.1-2.4c1.1-0.9,1.3-1.3,1.4-1.4 c0.1-0.2,0.2-0.5,0.2-0.8c0-0.6-0.2-1-0.6-1.4c-0.4-0.4-0.9-0.6-1.5-0.6c-0.9,0-1.9,0.3-2.2,2.3L31,30.2h-4.3l0.1-1.1 c0.2-1.7,0.8-3.2,2-4.2c1.2-1,2.7-1.6,4.4-1.6c1.9,0,3.4,0.5,4.6,1.5c1.2,1.1,1.8,2.4,1.8,4.1c0,0.9-0.2,1.8-0.6,2.6 C38.7,32.2,38,33,37,33.9c-1.1,0.9-1.4,1.4-1.4,1.5c-0.1,0.1-0.2,0.4-0.2,1.1" class="colorStroke454545 svgStroke"></path>
-                                                    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="35.5 40.2 35.5 42.4 31.1 42.4 31.1 40.2"></polyline>
-                                                    <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M19.4,27.1c-0.4,0.3-0.9,0.4-1.4,0.4c-1.4,0-2.6-1.2-2.6-2.6c0-1.4,1.2-2.6,2.6-2.6c1.4,0,2.6,1.2,2.6,2.6" class="colorStroke454545 svgStroke"></path>
-                                                    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="19.8 18 20.6 8 15.4 8 16.2 18"></polyline>
-                                                </g>
-                                            </switch>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 24 24">
+                                            <path d="M3.979 15.045c-1.468.978-2.168 2.263-2.231 3.955h-1.748c.069-2.346 1.1-4.186 3.153-5.497l.826 1.542zm15.36-12.045c1.468 0 2.661 1.194 2.661 2.662 0 1.115-.651 2.238-2.085 2.521l-2.366-4.417c.63-.662 1.268-.766 1.79-.766zm0-2c-1.852 0-3.198.966-4.138 2.619l3.545 6.618c3.4.222 5.254-2.149 5.254-4.575 0-2.598-2.098-4.662-4.661-4.662zm-3.722 7.631l-7.418 2.977 6.602-4.5-.949-1.772-9.38 6.393 1.557 2.906 10.539-4.229-.951-1.775zm-6.38 6.87c.633.619.764 1.648.764 2.558v4.941h1.999v-5.097c0-1.776.662-3.024 1.735-4.207l-4.498 1.805z"/>
                                         </svg>
                                     </g>
                                 </svg>
                             </div>
                             <div class="ml-5 mt-2">
-                                <h2 class="ml-14 text-2xl text-[#091D2D] font-semibold dark:text-[#ff3f00]">Help Center</h2>
-                                <p class="ml-14 text-base text-[#747681] dark:text-white">Openness will drive growth, innovation, collaboration, strong relationships in personal and professional contexts.</p>
+                                <h2 class="ml-14 text-2xl text-[#091D2D] font-semibold dark:text-[#ff3f00]">Religious Speaker</h2>
+                                <p class="ml-14 text-base text-[#747681] dark:text-white">Islam is not about, ‘We are better than you’. Islam is about ‘Let me show you something that is better for you’.</p>
                             </div>
                         </div>
                     </div>

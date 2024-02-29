@@ -112,31 +112,33 @@
 
                 <div class="xl:col-span-4 w-full">
 
-                    <div class="bg-[#050f25] rounded-md p-12 h-full">
+                    <div class="px-8 py-10 bg-[#050f25f3] h-full rounded-lg">
                         <form>
-                            <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-5">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-5">
                                 <div>
+                                    <label for="fname" class="block mb-2 text-base font-medium text-[#747681]">First Name</label>
                                     <input type="text" class="bg-[#050F25]  text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="First Name">
                                 </div>
                                 <div>
+                                    <label for="lname" class="block mb-2 text-base font-medium text-[#747681]">Last Name</label>
                                     <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Last Name">
                                 </div>
                                 <div>
+                                    <label for="email" class="block mb-2 text-base font-medium text-[#747681]">Email</label>
                                     <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Email">
                                 </div>
                                 <div>
-                                    <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Subject">
+                                    <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Telephone</label>
+                                    <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="+880 1746 00000">
                                 </div>
                                 <div class="md:col-span-2">
+                                    <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Message Here</label>
                                     <textarea class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-32 w-full resize-none focus:ring-1 focus:ring-[#ff3f00]" placeholder="Message"></textarea>
                                 </div>
                             </div>
-                            <div class="flex justify-end mt-9">
-                                <button class="text-lg font-medium text-white flex justify-center items-center py-4 px-6 bg-[#ff3f00] rounded-lg border border-transparent transition hover:bg-transparent hover:border hover:border-white">
-                                    <span> Full Form</span>
-                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14 16.5L18 12.5M18 12.5L14 8.5M18 12.5L6 12.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
+                            <div class="mt-8 flex justify-end">
+                                <button class="py-4 px-6 rounded-lg bg-[#ff3f00] text-white font-medium text-lg transition-all hover:bg-[#ff3c00]">
+                                    Send Now
                                 </button>
                             </div>
                         </form>

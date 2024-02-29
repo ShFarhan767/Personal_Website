@@ -1,15 +1,15 @@
 <script setup></script>
 
 <template>
-    <section class="Hero w-full h-auto pt-52 pb-24 z-0">
+    <section class="Hero w-full h-auto pt-52 pb-24 z-0 overflow-hidden">
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-between gap-8">
-                <div class="Image lg:w-[1000px] lg:h-[280px] w-full h-full -ml-48">
+                <div class="Image lg:w-[1000px] lg:h-[315px] w-[600px] h-[240px] md:-ml-48 -ml-28">
                     <img src="../assets/images/Hero/Hero.png" class="" alt="">
                 </div>
             <div class="pb-10">
-                <h1 class="text-5xl leading-normal xl:text-6xl xl:leading-snug font-bold text-white mb-4">
-                    Assalamu Alaikum <br> Wa
+                <h1 class="text-5xl leading-normal xl:text-6xl xl:leading-snug font-bold text-white mb-4 mt-10">
+                    Assalamu Alaikum <br class="md:block hidden"> Wa
                     <span class="text-white Line">Rahmatullah</span>
                 </h1>
                 <p class="pl-5 text-white text-xl border-l-2 border-white mb-14">

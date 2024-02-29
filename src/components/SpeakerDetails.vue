@@ -8,7 +8,7 @@
                 <div class="relative" data-aos="fade-right" data-aos-duration="2000">
                     <img src="../assets/images/Speaker/back-back.jpg" class="w-full h-auto pb-5 z-10 relative" alt="">
                     <div class="hidden md:block">
-                        <img src="../assets/images/Speaker/up-back.jpg" class="absolute w-72 z-20 left-0 xl:left-0 bottom-5 rounded-tr-md border-r-[15px] border-t-[15px] border-white" alt="">
+                        <img src="../assets/images/Speaker/Speaker.jpg" class="absolute w-72 z-20 left-0 xl:left-0 bottom-5 rounded-tr-md border-r-[15px] border-t-[15px] border-white" alt="">
                         <img src="../assets/images/About/ls-2.png" class="absolute right-0 bottom-96" alt="">
                     </div>
                     <div class="inline-flex gap-x-3 z-20 bg-white rounded-xl px-4 py-2.5 absolute bottom-8 left-[75%] transform translate-x-[-50%]">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="overflow-hidden" data-aos="fade-left" data-aos-duration="2000">
+                <div class="overflow-hidden lg:mt-20" data-aos="fade-left" data-aos-duration="2000">
                     <p class="font-xl font-semibold mb-5 dark:text-white">ABOUT LIFECT</p>
                     <h2 class="text-interface-500 font-semibold tracking-tight text-4xl xl:text-5xl capitalize leading-normal mb-4 dark:text-white">
                         Inspiring You to
@@ -51,20 +51,18 @@
                         </span>
                     </h2>
                     <p class="text-xl text-[#747681] mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod diti tempor incididunt ut labore et dolore magna aliqua.
+                        There are three things to aim at in public speaking: first, to get into your subject, then to get your subject into yourself, and lastly, to get your subject into the heart of your audience.
                     </p>
                     <div class="mt-10 mb-10 space-y-6">
                             
-                        
-                            
-                        <div class="grid md:grid-cols-2 gap-12 border-b-2 pb-10 border-[#CBD2D8]">
+                        <div class="grid md:grid-cols-2 gap-12 pb-10">
                             <div class="mt-4">
                                 <div class="float-left px-1 py-1 w-8 h-8 rounded-full flex items-center justify-center text-xl text-white bg-[#ff3f00]">
                                     <i class="fa-solid fa-crosshairs"></i>
                                 </div>
                                 <h2 class="text-2xl font-semibold pl-3 float-left text-[#141414] dark:text-white"> My Vision</h2> <br><br>
                                 <div class="float-none py-2">
-                                    <h5 class="text-base text-[#747681] float-none">Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
+                                    <h5 class="text-base text-[#747681] float-none">Best Speaker in National Debate competittion’15 in Dhaka , Bangladesh.Organized By-National Debate Federation(NDF)</h5>
                                 </div>
                             </div>
     
@@ -76,24 +74,6 @@
                                 <div class="float-none py-2">
                                     <h5 class="text-base text-[#747681] float-none">Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h5>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="pt-10 grid md:grid-cols-3">
-                            <a href="#!" class="md:float-left border group border-[#ff3f00] bg-[#ff3f00] items-center gap-1 inline-flex text-white py-4 px-6 rounded-lg text-lg font-medium hover:bg-[#ff3f00] hover:text-white hover:border-transparent">
-                                <span>Read More </span>
-                                <svg class="stroke-white group-hover:stroke-white  transform translate transition-transform group-hover:translate-x-2" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-                                    <path d="M14 16.5L18 12.5M18 12.5L14 8.5M18 12.5L6 12.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                            <div class="col-span-2 pt-1 xl:pl-8 md:pl-8 md:mt-0 mt-10 md:float-left">
-                                <div class="float-left px-1 py-1 w-14 h-14 rounded-full flex items-center justify-center text-3xl text-white bg-[#ff3f00]">
-                                    <i class="fa-regular fa-envelope"></i>
-                                </div>
-                                <h2 class="md:float-left text-xl font-semibold pl-4 float-left text-[#141414] dark:text-[#ff3f00]">
-                                    <span class="font-light text-xl dark:text-white">For Consultation</span> <br> 
-                                    contact@speaker.com
-                                </h2>
                             </div>
                         </div>
                     </div>

@@ -65,26 +65,26 @@ window.addEventListener('DOMContentLoaded', () => {
 
                         <div class="flex items-center space-x-2">
                             <i class="fa-solid fa-envelope text-[#ff3f00]"></i>
-                            <a href="mailto:info@example.com" class="text-[#e9e9ec] text-base">info@example.com</a>
+                            <a href="mailto:info@example.com" class="text-[#ff5e5e] text-base">info@example.com</a>
                         </div>
 
                         <div class="space-x-2 hidden md:flex items-center">
                             <i class="fa-solid fa-phone text-[#ff3f00]"></i>
-                            <a href="tel:+01600000" class="text-[#e9e9ec] text-base">+880 1600 11223</a>
+                            <a href="tel:+01600000" class="text-[#ff5e5e] text-base">+880 1600 11223</a>
                         </div>
                     </div>
                 </div>
                 <div class="flex items-center space-x-6">
-                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#ff5e5e] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#ff5e5e] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
-                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#ff5e5e] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-youtube"></i>
                     </a>
-                    <a href="#" class="group transition-all text-[#e9e9ec] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="group transition-all text-[#ff5e5e] hover:text-[#ff3f00]" target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
 
@@ -99,14 +99,15 @@ window.addEventListener('DOMContentLoaded', () => {
                 <nav class="nav nav-law top-20 relative w-full bg-white dark:bg-slate-800 shadow-md transition duration-500 transform -translate-y-full z-50" id="navbar">
                     <nav class="lg:mx-auto rounded-2xl dark:bg-gray-800 w-full z-20 top-14 start-0 dark:border-gray-600">
                         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                                <img src="../assets/images/logo-lw-m.svg" class="h-8" alt="Flowbite Logo">
+                            <a href="#!" class="flex items-center space-x-3 rtl:space-x-reverse">
+                                <h2 class="font-medium text-4xl Header_Logo uppercase">AAM</h2>
+                                <img src="../assets/images/Header-Logo.png" class="w-14 h-12 relative -left-[18px]" alt="">
                             </a>
                             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                                <button type="button" class="lg:block hidden md:mr-3 text-white bg-[#ff3f00] font-normal rounded-lg text-base px-5 py-3 text-center group button-group">
+                                <a href="/contact" type="button" class="lg:block hidden md:mr-3 cursor-pointer text-white bg-[#ff3f00] font-normal rounded-lg text-base px-5 py-3 text-center group button-group">
                                     Meet With Me
                                     <i class="fa-solid fa-arrow-right-long text-xs transition-transform duration-300"></i>
-                                </button>
+                                </a>
 
                                 <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                                     <span class="sr-only">Open main menu</span>
@@ -120,9 +121,9 @@ window.addEventListener('DOMContentLoaded', () => {
                                     <li>
                                         <RouterLink to="/" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</RouterLink>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <RouterLink to="/about" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</RouterLink>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <RouterLink to="/lawyer" class="navbar-item block py-2 px-3 text-[#000] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#ff3f00] md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Lawyer</RouterLink>
                                     </li>

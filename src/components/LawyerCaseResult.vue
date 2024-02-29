@@ -20,7 +20,7 @@
             <div class="mt-2">
                 <div class="grid grid-cols-1 lg:grid-cols-2 items-center h-auto" data-aos="fade-in">
                     <div class="relative" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../assets/images/Lawyer/Case-1.jpg" class="moveUpDown w-full h-full lg:h-[389px] mx-auto z-10 relative" alt="">
+                        <img src="../assets/images/Case/Card-1.jpg" class="moveUpDown w-full h-full lg:h-[389px] mx-auto z-10 relative grayscale" alt="">
                         <div class=" absolute top-44 -left-10 md:block hidden">
                             <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                         </div>
@@ -29,31 +29,22 @@
                     <div class="bg-[#050f25] pb-8 border-l-[#ff3f00] border-l-2" data-aos="fade-right" data-aos-duration="2000">
                         <div class="About_BG"></div>
                         <div class="relative z-10">
-                            <h4 class=" text-xl px-5 pt-4 mt-8 text-[#ff3f00]">Capital Market</h4>
+                            <h4 class=" text-xl px-5 pt-5 mt-8 text-[#ff3f00]">Cyber Law Case</h4>
                             <h2 class="text-3xl leading-normal xl:text-4xl xl:leading-snug font-normal mb-2 px-4 py-1 dark:text-white">
-                                <span class="text-[#fff]">Business Customers Law</span>
+                                <span class="text-[#fff]">Digital Security Act</span>
                             </h2>
 
                             <h4 class="Title text-white text-xl font-normal px-4 mt-4 float-left">
                                 The Charges :
                             </h4>
 
-                            <div class="description w-[72%] float-left mt-4 pl-5 ">
+                            <div class="description md:w-[72%] w-[95%] float-left mt-4 pl-5 ">
                                 <p class="w-full text-white text-lg">
-                                    Numerous definitions of law have been put forward over the centuries. The Third New International Dictionary from Merriam.definitions of law have been put forward definitions of law.
+                                    Former national cricket team captain ASM Rokibul Hasan has withdrawn the case filed under the Digital Security Act against Bangladesh Cricket Board's match referee Shawkatur Rahman alias Chinu for spreading defamatory statements on social media.
+                                    <span class="float-right mt-7">
+                                        <a href="https://www.dhakapost.com/law-courts/219419" class="text-xl underline text-[#ff3f00]">See More</a>
+                                    </span>
                                 </p>
-                            </div>
-                
-                            <div class="w-full h-40">
-                                <h4 class="Title text-white text-xl font-normal px-4 mt-8 float-left">
-                                    Awarded :
-                                </h4>
-
-                                <div class="description w-[490px] float-left mt-8 pl-14">
-                                    <p class="text-white text-lg">
-                                        $800 fine 5 months License suspension 12 Oct 2018
-                                    </p>
-                                </div>
                             </div>
 
                         </div>
@@ -72,26 +63,20 @@
                         <div class="relative z-10">
                             <h4 class=" text-xl px-5 pt-4 mt-8 text-[#ff3f00]">Substantial Risk Breach</h4>
                             <h2 class="text-3xl leading-normal xl:text-4xl xl:leading-snug font-normal mb-2 px-4 py-1 dark:text-white">
-                                <span class="text-[#fff]">Traffic Tickets Provides Law</span>
+                                <span class="text-[#fff]">Civil Case Law</span>
                             </h2>
 
                             <h4 class="Title text-white text-xl font-normal px-4 mt-4 float-left">
                                 The Charges :
                             </h4>
 
-                            <div class="description w-[72%] float-left mt-4 pl-5 ">
-                                <p class="text-white text-lg">
-                                    Numerous definitions of law have been put forward over the centuries. The Third New International Dictionary from Merriam.definitions of law have been put forward definitions of law.
-                                </p>
-                            </div>
-
-                            <h4 class="Title text-white text-xl font-normal px-4 mt-8 float-left">
-                                Awarded :
-                            </h4>
-
-                            <div class="description w-[490px] float-left mt-8 pl-14">
-                                <p class="text-white text-lg">
-                                    $800 fine 5 months License suspension 12 Oct 2018
+                            <div class="description md:w-[72%] w-[95%] float-left mt-4 pl-5 ">
+                                <p class="text-white text-lg w-full">
+                                    A Singapore expatriate named Rezaul Karim got possession of the house claimed by the tenant after renting a house in North Badda of the capital. 
+                                    the plaintiff of the case gave a written notice after obtaining possession of the house.
+                                    <span class="float-right mt-8">
+                                        <a href="https://www.dhakapost.com/law-courts/199448" class="text-xl underline text-[#ff3f00]">See More</a>
+                                    </span>
                                 </p>
                             </div>
 
@@ -100,7 +85,7 @@
                     </div>
 
                     <div class="relative" data-aos="fade-down" data-aos-duration="2000">
-                        <img src="../assets/images/Lawyer/Case-2.jpg" class="moveUpDown w-full h-full lg:h-[389px] mx-auto z-10 relative" alt="">
+                        <img src="../assets/images/Case/Card-2.jpg" class="moveUpDown w-full h-full lg:h-[389px] mx-auto z-10 relative grayscale" alt="">
                         <div class=" absolute top-16 -left-10 md:block hidden">
                             <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                         </div>
@@ -114,7 +99,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 items-center h-auto" data-aos="fade-in">
 
                     <div class="relative" data-aos="fade-left" data-aos-duration="2000">
-                        <img src="../assets/images/Lawyer/Case-3.jpg" class="moveUpDown w-full h-full lg:h-[389px] mx-auto z-10 relative" alt="">
+                        <img src="../assets/images/Case/Card-5.jpg" class="moveUpDown w-full h-full lg:h-[389px] mx-auto z-10 relative grayscale" alt="">
                         <div class=" absolute top-16 -left-10 md:block hidden">
                             <img src="../assets/images/Writer/decoration-dots-2.svg" class="animated-image" alt="">
                         </div>
@@ -132,19 +117,13 @@
                                 The Charges :
                             </h4>
 
-                            <div class="description w-[72%] float-left mt-4 pl-5 ">
-                                <p class="text-white text-lg">
-                                    Numerous definitions of law have been put forward over the centuries. The Third New International Dictionary from Merriam.definitions of law have been put forward definitions of law.
-                                </p>
-                            </div>
-
-                            <h4 class="Title text-white text-xl font-normal px-4 mt-8 float-left">
-                                Awarded :
-                            </h4>
-
-                            <div class="description w-[490px] float-left mt-8 pl-14">
-                                <p class="text-white text-lg">
-                                    $800 fine 5 months License suspension 12 Oct 2018
+                            <div class="description md:w-[72%] w-[95%] float-left mt-4 pl-5 ">
+                                <p class="text-white text-lg w-full">
+                                    A summons was issued to them to appear before the court in the revision case filed against them for using 'negative' words about disabled people and disability in the play 'Ghatna Shatto'.
+                                    The court has issued summons to actress Mehzabin Chowdhury and actor Afran Nisho.
+                                    <span class="float-right mt-8">
+                                        <a href="https://www.dhakapost.com/law-courts/199448" class="text-xl underline text-[#ff3f00]">See More</a>
+                                    </span>
                                 </p>
                             </div>
 
