@@ -3,6 +3,7 @@ import HomeHero from './HomeHero.vue';
 import HomeSkillSection from './HomeSkillSection.vue';
 import HomeAbout from './HomeAbout.vue';
 import HomeChooseUs from './HomeChooseUs.vue';
+import HomeWriter from './HomeWriter.vue';
 // import HomeLawyers from './HomeLawyersTeam.vue';
 import HomeTestimonial from './HomeTestimonial.vue';
 import HomeCaseInfo from './HomeCaseInfo.vue';
@@ -15,6 +16,7 @@ import HomeIcons from './HomeIcons.vue';
     <HomeSkillSection />
     <HomeAbout />
     <HomeChooseUs />
+    <HomeWriter />
     <!-- <HomeLawyers /> -->
     <HomeTestimonial />
     <HomeCaseInfo />

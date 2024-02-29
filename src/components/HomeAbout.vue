@@ -95,7 +95,6 @@
                         </li>
                     </ul>
                     <div class="mt-10">
-                        <img src="../assets/images/About/Signature.png" alt="">
                         <span class="text-2xl  text-interface-100 dark:text-[#f5f5f5]">Founder of Legal Solution Chamber</span>
                     </div>
                 </div>

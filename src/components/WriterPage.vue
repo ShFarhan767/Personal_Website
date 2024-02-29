@@ -2,6 +2,7 @@
 import WriterHeading from './WriterHeading.vue';
 import WriterDetails from './WriterDetails.vue';
 import WriterCards from './WriterCards.vue';
+import WriterHire from './WriterHire.vue';
 // import WriterContact from './WriterContact.vue'
 </script>
 
@@ -9,5 +10,6 @@ import WriterCards from './WriterCards.vue';
     <WriterHeading />
     <WriterDetails />
     <WriterCards />
+    <WriterHire />
     <!-- <WriterContact /> -->
 </template>

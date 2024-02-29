@@ -1,4 +1,21 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+
+const formData = ref({
+    fname: '',
+    lname: '',
+    email: '',
+    telephone: '',
+    message: ''
+});
+
+const validateForm = (event) => {
+    if (!event.target.checkValidity()) {
+        // If the form is not valid, prevent form submission
+        event.preventDefault();
+    }
+};
+</script>
 
 <template>
     <section class="py-20 lg:py-120">
@@ -113,31 +130,31 @@
                 <div class="xl:col-span-4 w-full">
 
                     <div class="px-8 py-10 bg-[#050f25f3] h-full rounded-lg">
-                        <form>
+                        <form @submit="validateForm">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-5">
                                 <div>
                                     <label for="fname" class="block mb-2 text-base font-medium text-[#747681]">First Name</label>
-                                    <input type="text" class="bg-[#050F25]  text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="First Name">
+                                    <input v-model="formData.fname" type="text" id="fname" name="fname" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="First Name" required>
                                 </div>
                                 <div>
                                     <label for="lname" class="block mb-2 text-base font-medium text-[#747681]">Last Name</label>
-                                    <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Last Name">
+                                    <input v-model="formData.lname" type="text" id="lname" name="lname" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Last Name" required>
                                 </div>
                                 <div>
                                     <label for="email" class="block mb-2 text-base font-medium text-[#747681]">Email</label>
-                                    <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Email">
+                                    <input v-model="formData.email" type="email" id="email" name="email" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="Email" required>
                                 </div>
                                 <div>
                                     <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Telephone</label>
-                                    <input type="text" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="+880 1746 00000">
+                                    <input v-model="formData.telephone" type="tel" id="telephone" name="telephone" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-14 w-full focus:ring-1 focus:ring-[#ff3f00]" placeholder="+880 1746 00000" required>
                                 </div>
                                 <div class="md:col-span-2">
-                                    <label for="telephone" class="block mb-2 text-base font-medium text-[#747681]">Message Here</label>
-                                    <textarea class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-32 w-full resize-none focus:ring-1 focus:ring-[#ff3f00]" placeholder="Message"></textarea>
+                                    <label for="message" class="block mb-2 text-base font-medium text-[#747681]">Message Here</label>
+                                    <textarea v-model="formData.message" id="message" name="message" class="bg-[#050F25] text-white border focus:border-0 border-white border-opacity-20 rounded-lg px-5 py-4 h-32 w-full resize-none focus:ring-1 focus:ring-[#ff3f00]" placeholder="Message" required></textarea>
                                 </div>
                             </div>
                             <div class="mt-8 flex justify-end">
-                                <button class="py-4 px-6 rounded-lg bg-[#ff3f00] text-white font-medium text-lg transition-all hover:bg-[#ff3c00]">
+                                <button type="submit" class="py-4 px-6 rounded-lg bg-[#ff3f00] text-white font-medium text-lg transition-all hover:bg-[#ff3c00]">
                                     Send Now
                                 </button>
                             </div>

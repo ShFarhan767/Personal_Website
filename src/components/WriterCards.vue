@@ -3,27 +3,41 @@ import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 
 export default {
-    mounted() {
-        this.swiper = new Swiper('.swiper-container', {
-            slidesPerView: 'auto',
-            spaceBetween: 30,
-            centeredSlides: false, // Changed to false
-            autoplay: {
-                delay: 5000, // milliseconds
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-        });
+    data() {
+        return {
+            showSlider: true, // Initially show the slider
+            swiperInstance: null // Variable to hold the Swiper instance
+        };
     },
-    beforeDestroy() {
-        if (this.swiper) {
-            this.swiper.destroy();
+    mounted() {
+        console.log("Swiper initialization script executed.");
+        if (this.showSlider) {
+            this.initSwiper();
+        }
+    },
+    methods: {
+        initSwiper() {
+            this.swiperInstance = new Swiper('.swiper-container', {
+                slidesPerView: 'auto',
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+            });
+        },
+        toggleSlider() {
+            this.showSlider = !this.showSlider;
+            if (this.showSlider && !this.swiperInstance) {
+                this.initSwiper();
+            } else if (!this.showSlider && this.swiperInstance) {
+                this.swiperInstance.destroy(true, true);
+                this.swiperInstance = null;
+            }
         }
     }
-};
+}
 </script>
 
 <template>

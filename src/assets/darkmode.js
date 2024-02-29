@@ -3,7 +3,6 @@ const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 const themeToggleBtn = document.getElementById('theme-toggle');
 
-// Function to toggle theme and update local storage
 function toggleTheme() {
     if (themeToggleDarkIcon && themeToggleLightIcon) {
         themeToggleDarkIcon.classList.toggle('hidden');

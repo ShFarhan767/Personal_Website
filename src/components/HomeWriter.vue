@@ -116,12 +116,15 @@
                 </div>
 
                 <div class="relative" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="../assets/images/Lawyer/Lawyer-home.jpg" class="relative z-30 w-[500px] h-[490px] rounded-full" alt="">
+                    <img src="../assets/images/Lawyer/Lawyer-home.jpg"
+                        class="relative z-30 w-[500px] h-[490px] rounded-full" alt="">
                     <div class="hidden xl:block">
-                        <img src="../assets/images/Writer/writting-rev.png" class="absolute w-60 -right-20 z-40 bottom-0" alt="">
-                        <img src="../assets/images/Writer/books-rev.png" class="absolute top-72 -left-28 bottom-20 z-20" alt="">
-                        <img src="../assets/images/Writer/shape-1.png"
-                            class="absolute -right-1 top-32 -z-10 animated-image" alt="">
+                        <img src="../assets/images/Writer/writting-rev.png" class="absolute w-60 -right-20 z-40 bottom-0"
+                            alt="">
+                        <img src="../assets/images/Writer/books-rev.png" class="absolute top-72 -left-28 bottom-20 z-20"
+                            alt="">
+                        <img src="../assets/images/Writer/shape-1.png" class="absolute -right-1 top-32 -z-10 animated-image"
+                            alt="">
                         <img src="../assets/images/About/ls-4.png" class="absolute -left-16 bottom-60 z-0" alt="">
                     </div>
                 </div>
